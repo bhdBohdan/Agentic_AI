@@ -1,0 +1,9 @@
+fastapi[standard]>=0.141.1
+
+google-genai==2.22.0
+python-dotenv==1.2.3
+
+# Week 3 — chunking, semantic search, and a persistent vector store on disk.
+# Embeddings come from the API (see embedding_client.py), so there is no model
+# download here and no torch.
+chromadb==1.5.9

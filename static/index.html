@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111820" />
+    <title>Lumen Chat</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <span class="brand-mark">✦</span><span>Lumen</span>
+        </div>
+        <button class="new-chat" id="new-chat">
+          <span>＋</span> New conversation
+        </button>
+        <div class="side-label">Recent</div>
+        <nav class="conversation-list" aria-label="Recent conversations">
+          <button class="conversation active">
+            <span class="status-dot"></span
+            ><span>Getting started with RAG</span>
+          </button>
+          <button class="conversation">
+            <span class="status-dot muted"></span
+            ><span>Product research notes</span>
+          </button>
+          <button class="conversation">
+            <span class="status-dot muted"></span
+            ><span>Plan a study sprint</span>
+          </button>
+        </nav>
+        <div class="sidebar-footer">
+          <div class="profile-avatar">AK</div>
+          <div><strong>Alex Kim</strong><span>Personal workspace</span></div>
+          <button class="icon-button" aria-label="Open settings">⚙</button>
+        </div>
+      </aside>
+
+      <main class="chat-panel">
+        <header class="topbar">
+          <div class="mobile-brand">
+            <span class="brand-mark">✦</span> Lumen
+          </div>
+          <div class="model-picker">
+            <span class="live-dot"></span><span>Atlas assistant</span
+            ><span class="chevron">⌄</span>
+          </div>
+          <div class="topbar-actions">
+            <button class="icon-button" aria-label="Search conversations">
+              ⌕</button
+            ><button class="avatar-small">AK</button>
+          </div>
+        </header>
+
+        <section class="chat-content" id="chat-content">
+          <div class="welcome-block">
+            <div class="eyebrow">
+              <span class="eyebrow-line"></span> Your thinking partner
+            </div>
+            <h1>Good morning, Alex<span class="accent">.</span></h1>
+            <p>
+              Bring a question, a rough idea, or a difficult decision. We will
+              make it clearer together.
+            </p>
+          </div>
+
+          <div class="suggestions" aria-label="Suggested prompts">
+            <button
+              class="suggestion"
+              data-prompt="Help me understand how RAG works"
+            >
+              <span class="suggestion-icon teal">↗</span
+              ><span>Explain RAG simply</span
+              ><span class="suggestion-arrow">→</span>
+            </button>
+            <button
+              class="suggestion"
+              data-prompt="Give me a focused plan for this week"
+            >
+              <span class="suggestion-icon coral">▦</span
+              ><span>Make a focused plan</span
+              ><span class="suggestion-arrow">→</span>
+            </button>
+            <button
+              class="suggestion"
+              data-prompt="Help me turn this idea into a clear brief"
+            >
+              <span class="suggestion-icon gold">✎</span
+              ><span>Shape an idea</span><span class="suggestion-arrow">→</span>
+            </button>
+          </div>
+
+          <div
+            class="message-stream"
+            id="message-stream"
+            aria-live="polite"
+          ></div>
+        </section>
+
+        <form class="composer-wrap" id="chat-form">
+          <div class="composer">
+            <textarea
+              id="message-input"
+              rows="1"
+              placeholder="Ask anything..."
+              aria-label="Message"
+            ></textarea>
+            <div class="composer-tools">
+              <button
+                type="button"
+                class="tool-button"
+                aria-label="Attach a file"
+              >
+                ＋</button
+              ><span class="hint"
+                >Enter to send · Shift + Enter for a new line</span
+              ><button class="send-button" aria-label="Send message">↑</button>
+            </div>
+          </div>
+          <div class="composer-note">
+            <span class="sparkle">✦</span> Lumen can make mistakes. Check
+            important information.
+          </div>
+        </form>
+      </main>
+    </div>
+    <script src="/static/app.js"></script>
+  </body>
+</html>
