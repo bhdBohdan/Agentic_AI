@@ -1,15 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-color-mode="dark" data-dark-theme="dark" data-light-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#111820" />
-    <title>Lumen Chat</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Lance Chat</title>
+
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.8.1/github-markdown-dark.css"
     />
     <link rel="stylesheet" href="/static/styles.css" />
   </head>
@@ -17,7 +16,7 @@
     <div class="app-shell">
       <aside class="sidebar">
         <div class="brand">
-          <span class="brand-mark">✦</span><span>Lumen</span>
+          <span class="brand-mark">♕</span><span>Lance</span>
         </div>
         <button class="new-chat" id="new-chat">
           <span>＋</span> New conversation
@@ -47,7 +46,7 @@
       <main class="chat-panel">
         <header class="topbar">
           <div class="mobile-brand">
-            <span class="brand-mark">✦</span> Lumen
+            <span class="brand-mark">♕</span> Lance
           </div>
           <div class="model-picker">
             <span class="live-dot"></span><span>Atlas assistant</span
@@ -61,7 +60,7 @@
         </header>
 
         <section class="chat-content" id="chat-content">
-          <div class="welcome-block">
+          <!-- <div class="welcome-block">
             <div class="eyebrow">
               <span class="eyebrow-line"></span> Your thinking partner
             </div>
@@ -70,7 +69,7 @@
               Bring a question, a rough idea, or a difficult decision. We will
               make it clearer together.
             </p>
-          </div>
+          </div> -->
 
           <div class="suggestions" aria-label="Suggested prompts">
             <button
@@ -126,12 +125,16 @@
             </div>
           </div>
           <div class="composer-note">
-            <span class="sparkle">✦</span> Lumen can make mistakes. Check
+            <span class="sparkle">♕</span> Lance can make mistakes. Check
             important information.
           </div>
         </form>
       </main>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
+
     <script src="/static/app.js"></script>
   </body>
 </html>

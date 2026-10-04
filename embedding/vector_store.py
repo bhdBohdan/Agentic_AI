@@ -131,6 +131,10 @@ class VectorStore:
         indexed before provenance existed; re-ingest with `--reset` to populate it.
         """
         query_vector = self.embedder.embed(query, task_type="RETRIEVAL_QUERY")
+        print(
+            f"[embedding] task=RETRIEVAL_QUERY dimensions={len(query_vector)} "
+            f"preview={[round(value, 6) for value in query_vector[:5]]}"
+        )
         result = self._collection.query(
             query_embeddings=[query_vector],
             n_results=n_results,

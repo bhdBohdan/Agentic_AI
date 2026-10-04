@@ -1,0 +1,75 @@
+Tower Troops are troops that defend the Crown Towers. The player can choose their Tower Troop before going into battle. Just like troop, spell and building cards, Tower Troop cards have rarities, and can be upgraded to a maximum level of 16, however, it cannot be upgraded past the player's King's Tower level even if it's under the starting level. The player can get Tower Troop cards through Lucky Chests or offers from the Shop. When upgrading to a new King Level, the player will get enough cards and gold to upgrade their Tower Princess.
+
+General information
+Each player has a pair of 3×3 size Crown Towers on their respective side of the Arena, one on the left and one on the right of the King's Tower.
+The Crown Towers are classified as a building and will be targeted by building-targeting troops.
+Destroying an opposing Crown Tower awards a player a Crown and grants the player additional territory across the river (commonly called a “pocket”) where cards can be cast upon (the Royal Recruits card needs both Crown Towers to be destroyed to be deployed in the pocket)
+There are certain cards that will deal reduced damage to Crown Towers. More specifically:
+The Evolved Firecracker's Sparks will deal 6-7% of their full damage to Crown Towers.
+The Hero Ballon ability will deal 10-11% of their full damage.
+The Log and Void's single target will deal 13-14% of their full damage.
+Void's 2-4 targets beams will deal 17-18% of their full damage.
+The Miner and Arrows will deal 20-21% of their full damage.
+Void's 5+ targets beam, Poison and Vines will deal 22-23% of their full damage.
+Rocket and Fireball will deal 23-24% of their full damage.
+Evolved Dart Goblin's Minimum Poison Damage and Hero Berserker ability will also deal 23-24% of their full damage.
+The Goblinstein's ability and Evolved Dart Goblin's Maximum Poison Damage damage will deal 24-25% of their full damage.
+Zap, Giant Snowball, Rage, Freeze and Lightning will deal 25-26% of their full damage.
+Due to spawning a Rage after death, the Lumberjack's death Rage will also deal 25-26% of its full damage to Crown Towers.
+The Evolved Cannon's Barrage Damage will also deal 25-26% of their full damage.
+The Goblin Curse will deal 28-29% of its full damage.
+The Tornado will deal 29-30% of its full damage.
+The Goblin Machine's Rocket and Hero Wizard ability will deal 33-34% of its full damage.
+The Evolved Valkyrie's Tornado will deal 44% of its full damage.
+The Hero Valkyrie Ability will deal 49-50% of their full damage.
+The Electro Giant's Reflected Damage and Hero Barbarian Barrel ability will deal 50-51% of their full damage.
+The Earthquake will deal 60-61% of its full troop damage.
+The Tower Troops' attack speed can be temporarily increased by a Rage spell like all other active buildings and troops.
+Similarly, the Tower Troops' attack speed can be temporarily decreased by a Giant Snowball, Ice Golem and Ice Wizard, like all other active buildings and troops.
+History
+2016
+
+Neutral Image 0 tower troop cards were present in Clash Royale's game launch on 4/1/2016.
+2023
+
+On 13/12/2023 the Tower Troop Update added tower troopsAdd Image. This also changed the Princess Tower to the Tower PrincessNeutral Image.
+2024
+
+Add ImageOn 1/1/2024, the January 2024 Update added the Cannoneer immediately.
+Add ImageOn 1/4/2024, the April 2024 Update added the Dagger Duchess immediately.
+Add ImageOn 17/6/2024, the Goblin World Update added the Baby Goblins immediately.
+On 16/12/2024, the 2024 Quarter 4 Update removed the Baby GoblinsRemove Image and added the Royal Chef immediatelyAdd Image.
+List of Tower Troops
+
+Common‌
+Tower Princess
+TowerPrincessCard
+The King decides to guard his secondary towers with his trusted daughters, because family always comes first. High hitpoints and quick but low damage is always nice as a secondary means of defense.
+
+
+
+Epic‌
+Cannoneer
+CannoneerCard
+Blast Away! The Cannoneer is a tower troop that deals a lot more damage but at a lower hit speed. This makes him great against low health/quantity units and tanks, but is extremely susceptible to swarms. Also, you might want use noise reducers if your ears cannot handle the blasts.
+
+Legendary‌
+Dagger Duchess
+DaggerDuchessCard
+This fiery royal isn't one for dainty lobs. She pelts enemies with quick, stinging daggers, building up to a ferocious finale. She charges up a "dagger bar" over time. Once an enemy gets close, she depletes the dagger bar, unleashing a sharp flurry of up to 8 blades, one enemy at a time, dealing great damage. She's good at cleaning swarms and weak counter-pushes, but can be baited to throw away all of her daggers and end up nearly defenseless. A massive push can also overwhelm her with ease. And make sure to call her a "Duchess". She envies the Princess.
+
+Royal Chef
+RoyalChefCard
+This magnificent chef trades less health and hit speed with delicious pancakes approved by the one and only Mini P.E.K.K.A.! And these pancakes are so special, that they even LEVEL UP troops, making them harder, better, faster, and stronger. However, they do sadly take time to make, so he prioritizes healthy troops who hasn't gotten a pancake! Sharing is caring, after all. Troops whose hitpoints have been depleted to below 33% HP will not get the pancake, as well as buildings.
+
+
+The Baby Goblins was a temporary Common card that were unlocked from Goblin Mines (Goblins 1). It was a single-target, air-targeting, long-ranged tower troop with high hitpoints and low damage. Additionally, it would give an ability to the Goblin Queen Tower. They appear as smaller versions of Goblins wearing goggles, a silver earring, and pale brown underpants, have khaki and orange hair, and carry daggers and slingshot leather pads.
+
+Strategy
+The Baby Goblins is a well-rounded tower troop as it can handle both many swarms and tanks decently well.
+The Baby Goblins is the tower troop tied with the Tower Princess for the most health. This will make it better against siege decks or spell cycle, since it can tank more hits.
+After a Crown Tower has already been destroyed, if a melee troop, such as Knight, Hog Rider, Royal Ghost, Valkyrie, Miner, Golem, or Giant, is attacking your Goblin Queen on the opposite side of your other Baby Goblin, your Baby Goblin will aid the Goblin Queen in taking out the threat.
+However, if the melee troop has a Long melee range (1.6 tiles) and is attacking the Goblin Queen from low on the opposite side, the remaining Baby Goblin will not help the Goblin Queen as the troop would be just out of range. This is important to keep in mind for high DPS units that could easily threaten your Goblin Queen, such as P.E.K.K.A, Three Musketeers, Inferno Dragon, Evolved Royal Recruits, Mighty Miner, Prince, Mini P.E.K.K.A, Elite Barbarians, Sparky, and Night Witch.
+The Baby Goblins has an attack range that is 0.5 tiles longer and a hit speed that is 0.2 seconds faster than the Goblin Queen, however, their projectiles are slightly slower.
+Against heavy tanks, such as Golem and Giant, defensive buildings that have a 3x3 deploy area should be placed in the 3-4 position. This will lure the Golem/Giant to the building instead of the Crown Towers while allowing for both of the Baby Goblins to target the Golem/Giant, destroying them much faster.
+Buildings that have a 2x2 deploy area, like Tesla, should be placed in the 3-3 position as 3-4 will usually not pull them to the building.

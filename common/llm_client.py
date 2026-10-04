@@ -98,7 +98,7 @@ class LLMClient:
     def _init_gemini(self) -> None:
         from google import genai
 
-        self.model = "gemini-3.5-flash"
+        self.model = os.environ.get("GEMINI_MODEL", "gemini-3.1-flash-lite")
         self._genai = genai
         self._client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 

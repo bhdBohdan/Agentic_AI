@@ -7,3 +7,4 @@ python-dotenv==1.2.3
 # Embeddings come from the API (see embedding_client.py), so there is no model
 # download here and no torch.
 chromadb==1.5.9
+openpyxl==3.1.5

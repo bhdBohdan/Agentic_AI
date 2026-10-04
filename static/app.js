@@ -3,19 +3,41 @@ const input = document.querySelector("#message-input");
 const stream = document.querySelector("#message-stream");
 const newChat = document.querySelector("#new-chat");
 
+function normalizeMarkdown(text) {
+  return String(text || "")
+    .replace(/\\r\\n/g, "\n")
+    .replace(/\\n/g, "\n")
+    .replace(/\s+(?=#{1,6}\s)/g, "\n\n")
+    .replace(/\s+(?=[*+-]\s+(?:\*\*|__))/g, "\n")
+    .replace(/\n{3,}/g, "\n\n");
+}
+
+function renderMarkdown(text) {
+  const html = marked.parse(normalizeMarkdown(text), {
+    gfm: true,
+    breaks: true,
+  });
+  return DOMPurify.sanitize(html);
+}
+
 function addMessage(text, role, label) {
   const message = document.createElement("div");
   message.className = `message ${role}`;
+
   const bubble = document.createElement("div");
   bubble.className = "message-bubble";
+
   if (label) {
     const meta = document.createElement("div");
     meta.className = "message-meta";
     meta.textContent = label;
     bubble.append(meta);
   }
+
   const content = document.createElement("div");
-  content.textContent = text;
+  content.className = "markdown-content markdown-body";
+  content.innerHTML = renderMarkdown(text || "");
+
   bubble.append(content);
   message.append(bubble);
   stream.append(message);
@@ -29,7 +51,7 @@ async function sendMessage(message) {
   const pending = document.createElement("div");
   pending.className = "message assistant";
   pending.innerHTML =
-    '<div class="message-bubble"><div class="message-meta">Atlas assistant</div><div>Thinking...</div></div>';
+    '<div class="message-bubble"><div class="message-meta">Lance assistant</div><div>Thinking...</div></div>';
   stream.append(pending);
 
   try {
@@ -41,7 +63,7 @@ async function sendMessage(message) {
     if (!response.ok) throw new Error("Request failed");
     const data = await response.json();
     pending.remove();
-    addMessage(data.reply, "assistant", "Atlas assistant");
+    addMessage(data.reply, "assistant", "Lance assistant");
   } catch (error) {
     pending.remove();
     addMessage(

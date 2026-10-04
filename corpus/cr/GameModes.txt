@@ -1,0 +1,271 @@
+Touchdown is a game mode which is currently only available to play in certain Special Event Challenges, as a rotating mode in Party Mode, and in Clan Wars. In Touchdown, there are no Crown Towers. Instead, each side has an end zone, and players must aim to get their troops to the opponent's end zone in order to gain Crowns. The types of Touchdown which appear in the rotation are 2v2 Draft and Double Elixir Mega Deck. Unlike regular 2v2 Battles, 2v2 Touchdown does not decrease Elixir generation, the rate being identical to 1v1 battles.
+
+
+Gameplay: The main objective of Touchdown is to get any troop to the opposing side's end zone.
+There are no Crown Towers in Touchdown; the only way to earn Crowns is by getting troops to the enemies' end zone.
+As in regular battles, the side that has more Crowns at the end of a 3-minute period will win the game. If both sides have an equal number of Crowns, an overtime period will last for 2 minutes or until one side earns a Crown. The rules of Elixir generation are the same as a regular Crown Tower destruction match, being doubled after two minutes.
+If one side earns 3 Crowns within the regular 3-minute period, the match ends immediately in their favor.
+Upon one side earning a Crown, the Arena resets; all remaining troops and buildings will immediately be destroyed. Any cards that were cast but didn't spawn due to a Touchdown are not removed from the respective player's hand. Any Elixir that the players had will remain.
+The deployment zone of most cards have been changed:
+Buildings, as well as most troops, can only be placed behind the second white line which is roughly a quarter of the way between your end zone to the opponent's end zone. The Miner and the Goblin Drill can only be deployed up to the half-way line of the Arena.
+Most spells can still be deployed anywhere in the Arena; the only exceptions are The Log, Graveyard, and Barbarian Barrel, which can only be played up to the halfway line, and the Royal Delivery, which can only be played up to the quarter line.
+Troops that only target buildings will travel straight to the end zone if no buildings are around to distract them.
+In Mega Touchdown, the Hog Rider, Royal Hogs, Ram Rider, and the Freeze spell are not selectable.
+
+
+Strategy: Buildings are very reliable and recommended in Touchdown, as they are the only method of stalling troops like the Giant or Hog Rider. An X-Bow can cover almost the entire horizontal space of the map and snipe away at troops, acting as a pseudo-Crown Tower as it only targets grounded troops. A Mortar can also be useful for taking out low hitpoint support troops, though Fast and Very Fast units will often escape the shell's landing. The other cards, like Cannon, Inferno Tower, and so on are basic defense options against building targeting troops. Spawners are also reliable since their spawned units can counterpush and force your opponent to commit on the defense.
+Spells are useful overall, but one must be wary of which ones they decide to use. Since Crown Towers are absent in this mode, spells that do not one-shot certain units may be inconsistent, as units which would normally be picked off by Crown Towers will require further response and possibly cause large negative Elixir trades. For example, Musketeers and Wizards are not one-shot by a Fireball and can continue advancing towards the end zone. However, as long as this weakness is properly addressed (e.g. by using alternate methods of eliminating spell-resistant troops, like waiting for them to be in range of the player's deployment area), spells can be very useful for controlling the battle past the halfway point.
+Pressuring both sides of the field is key. A player's opponents will have to address both threats, making it harder for them to play offense themselves. This also reduces the amount of potential area damage value the opponent can reap from defending.
+Fast, fairly inexpensive troops can be very effective, as the lack of Crown Towers means that even Skeletons must be addressed in order to prevent the opponent from gaining Crowns. If the opponent lacks cheap counters to them, they will be forced to continually take negative Elixir trades, and eventually be overwhelmed by bulkier troops.
+High hitpoint building-targeting troops can also be effective, though some have more utility than others. The Giant and Royal Giant are somewhat risky to use as they cannot attack troops, and possibly allow the opponent to snowball their defense into a counterpush. The Golem deals damage upon death and has the highest hitpoints to Elixir ratio in the game, so it may be able to brute force its way through defenses that lack fast damage per second. The Goblin Giant moves faster than a Giant and also carries Spear Goblins which can chip away at opposing troops for just 1 more Elixir. Upon death, the Spear Goblins must also be dealt with. Finally, the Lava Hound and Balloon can be difficult to deal with if the opponent lacks sufficient anti-air or if they only have buildings which target grounded troops.
+When placing buildings to defend against a Lava Hound or Skeleton Barrel, the defender should never place it at the very back of their side. Once the Hound/Barrel pops, one of the Lava Pups/Skeletons will be thrown into the end zone, almost guaranteeing a Crown for the opposing side.
+
+
+2v2 is a battle mode in Clash Royale where two players play against two players. It is accessed through the Events tab. It can be played with a random teammate, a Clanmate or a Friend. Being an event mode, 2v2 battles does not put Trophies at risk. 2v2 is also sometimes used as a Special Event Challenge and as 2v2 ladder, and they are also playable in Friendly Battles.
+Gameplay
+2v2 battles are battles between 2 teams of 2 players. All 4 players play simultaneously in 1 Arena, and each team attempts to win more Crowns than the opposing team to win the match, just like normal 1v1 battles.
+2v2 battles can be played with a friend, a clanmate, or a random teammate. It can also be played in Friendly Battles with clanmates.
+In 2v2, the King's Tower has 2 cannons, is wider, has 2 Kings, has a special badge with 2 Crowns on it and it has about 20% more health than an equivalent level King's Tower. Both cannons have their own individual range.
+Each Crown Tower will use the Tower Troop and Skin that each player picked.
+Cards and Crown Towers are automatically set to level 11.
+Both players use separate decks. Elixir generation is slowed to 85% of the normal generation (roughly 1 Elixir every 3.6 seconds). During Double Elixir and Overtime, Elixir generation is decreased to 70% of the normal Overtime generation (1 Elixir every 1.8 seconds, and 1 Elixir every 1.2 seconds in Triple Elixir).
+At the beginning of the battle, players can see each others banners, and during the battle they can see the teammate's current Cards in their hand. It is possible to work out how much Elixir the other player has by looking at the number beside their current hand of Cards.
+They will also see where their teammates are hovering their Cards. This is very helpful in coordinating attacks and defenses, as well as designating who will respond to a situation, so Cards should always be dragged onto the Arena if time permits.
+2v2 battles do not award or deduct Trophies from players. 2v2 battles award Cards/lucky drops and count towards pass royale if played from Event Tab.
+All spells affect both players of a team. For example, a friendly Rage or Clone would enrage or duplicate all friendly troops within their radius, including a teammate's. Similarly, an opposing Freeze or damaging spell would freeze or damage both teammates' units.
+However, an Elixir Collector will only generate Elixir for whoever plays it. The opposing team's Elixir Golem and all of its forms, when destroyed, only give Elixir for whoever destroys it; if a Crown Tower destroys a form of the Elixir Golem, each player is the owner of one Crown Tower and one single King's Tower (it becomes evident if two players picked different Tower Skins).
+The Arena space behind a King's Tower is expanded, to have more space for deploying troops. However, there is less space between the sides of the King's Towers and the edges of the Arena.
+Since the Twin King Tower is wider, some cards can accidentally activate the tower early, whereas in 1v1, they normally wouldn't. An example of this is Firecracker shrapnel if it aims straight at the Crown Tower will result in the additional shrapnel hitting the Twin King Tower.
+
+From time to time, Special Event Challenges will appear on the player's Tournament tab. Special Event Challenges are similar to Classic and Grand Victory Challenges, offering similar rewards and having similar rules while also possessing a similar matchmaking system separate from ladder play. However, Special Event Challenges have certain special conditions and can have one-time rewards which can be won by reaching certain win counts for the first time in that challenge.
+
+
+Types
+Special Event Challenges can be classified with a number of parameters. Theoretically, these parameters can be played at any combination.
+
+By number of players:
+
+1v1: Each side has one player.
+2v2: Each side has two players. Players can team up with either a random player, friend, or a clanmate.
+By Deck size:
+
+Default: Each Deck has 8 Cards.
+Mega Deck Challenge: Each Deck has 18 Cards.
+4 Cards Deck Challenge: Each Deck has 4 Cards.
+4 Cards Evo Deck Challenge: Each Deck has 4 Cards which have Evolutions.
+By objective:
+
+Default: Destroying the opponent's Crown Towers.
+Touchdown Challenge: Reaching the opponent's End Zone with any troop.
+Heist Challenge: Destroying the opponent's Safe.
+By wins and losses:
+
+Default: Eliminated after 3 losses, and can continue by paying Gems (or for free if Pass Royale is bought) in some of these Challenges. The total amount of wins vary widely, from 3 to 20. The 3 to 6 win Challenges usually have no free entries and are for gaining small stacks of certain non-Legendary Cards, while the 20 win Challenges are for CRL qualification and can only be re-entered rather than continued. Global Tournaments are set to 5 losses and the player is unable to continue after the losses by paying Gems.
+Practice: Losses are not counted, and the players aim to accumulate either a certain number of wins or a certain number of Crowns.
+By Elixir rate:
+
+Default: Elixir is gained at normal rate of 1-1-2-2-3 (denotes generation rate at each minute).
+Double Elixir Challenge: A challenge in which Elixir generates at two times the normal speed throughout the whole match. However, players start with 0 Elixir instead of 5. Crown Towers have a skin that resembles the Elixir Collector.
+Triple Elixir Challenge: Similar to the Double Elixir Challenge, but Elixir generation rate is triple the normal rate throughout the match.
+Infinite Elixir Challenge: Elixir generation rate is septuple (7 times) the normal rate through out the match.
+Ramp Up Challenge: Elixir generation rate is 1-2-3-4-5.
+Sudden Death Challenge: The game begins with a 5-minute Overtime. Elixir generation rate is 2-2-2-3-3.
+By Card Elixir costs:
+
+Default: Cards have their normal Elixir cost.
+Specified Elixir Challenge: Elixir cost of the cards in the deck is the same for all cards.
+Random Elixir Challenge: Elixir cost of the cards in the deck is randomized between the cards.
+By Card Evolution slots:
+
+Default: Each deck can have up to 2 Evolutions.
+Limited Evolutions: Each deck may have only 1 or no Evolutions
+Evo Bonanza: All cards in the deck can evolve if they have an Evolution.
+By Environment:
+
+Default: No special environment.
+(No Rivers Nor Bridges): The Arena has no bridges nor a river.
+Boost Fields: Spells may be found in the center of the Arena where the river would otherwise be located. These spells are Heal, Rage, Clone, and Invisibility. Goblin Barrel, Miner, and Goblin Drill are not available in this game mode.
+What's in the Bush?: Some immobile Suspicious Bushes are found at where the bridges and the river would otherwise be located. When claimed, a Suspicious Bush or a Sparky will spawn from them.
+Global Spell: The Arena is affected by a specific spell.
+Troop Rush: A certain type of troop is generated by the system for both sides. Usually uses 1-2-2-3-3 Elixir rate, and the amount of troops generated is directly proportional to the Elixir rate. Sometimes, a certain type of spell or building may replace the troop.
+Dark Elixir: Similar to Troop Rush, but spawns Dark Elixir paddles periodically in random positions. Inside these paddles, troops and buildings will have double the attack speed, but they will also receive double the damage from all sources. The Dark Elixir can be stacked with the Rage card. Crown Towers are immune to the effect of Dark Elixir.
+Treasure Hunt: A "Treasure Building" lies at the center of the Arena. It does not belong to either side, and has two health bars, one for each side. Both sides race to deplete the health bars to get the treasure for their own side.
+Obstacle Course: Both sides are obstructed by something.
+Chess Royale: The Arena is shaped similar to a chess board, with a King's Tower as the King. An Archer Queen Tower is beside it as the Queen. Three more Towers are placed in each side, resembling a Magic Archer Tower, a Prince Tower, and a Bomb Tower, which represent the Bishop, Knight, and Rook respectively. In front of all Towers, 8 stationary Royal Recruits can be found, representing the Pawns from chess. Royal Recruits, Rocket, Earthquake, Lightning, Poison, Goblin Drill, Miner, and Champion cards are not available in this game mode.
+By Decks used:
+
+Default: Uses player's own battle decks, and players cannot use Cards they have not unlocked yet. Cards under the Challenge/Tournament's cap are not adjusted up to this Level, and players use their own Card levels if played in Party mode.
+Duel: Each player uses multiple Decks in a Best of 3 format. After a battle ends, the player can choose to use a different deck.
+Ban Pick Duel: Each player uses multiple Decks in a Best of 1 format. Before the battle starts, the player can see the opponent's 4 Decks and ban 2 of them. After that, they can choose to use one of the two decks that the opponent did not ban.
+Restricted Card Challenge: A challenge in which players get to build a deck restricted to certain subsets of cards in the game, for example:
+Retro Royale Challenge: A challenge in which players build decks exclusively with cards that were available before a certain date.
+Modern Royale Challenge: A challenge in which players build decks exclusively with cards released after a certain date.
+Arena Challenge: A challenge in which players build decks exclusively with cards unlocked at or below a certain Arena. Note that at the highest Arena, this becomes a Default Challenge: players use own decks.
+(Special Theme Challenge): A challenge in which players build decks exclusively with cards of certain theme(s).
+
+Modes listed below do not use player's battle decks, Cards under Tournament Standard (Level 11) are adjusted up to this level, players can use Cards they have not unlocked yet, and all Cards are also adjusted to Tournament Standard if played in Party mode.
+
+Draft Challenge: A challenge in which before the match starts, players are given a choice between two Cards. The player gets to pick one while the other one is given to the opponent. This is repeated until one half of the player's deck is filled by Cards of the player's choice and the other half is filled by those given by the opponent. The player cannot see which Cards the opponent has taken or given to the player until the match starts. If a card is featured, one of the players will be guaranteed to get that card. Mirror and Clone are not available in this game mode.
+Triple Draft Challenge: Each player will pick one out of three cards eight times, with the other two cards (of each set) being discarded. The player will also be able to see what three cards their opponent can pick from, and vice versa. However, neither player can know what card their opponent picked out of the three cards. Mirror, Clone, Three Musketeers, Giant Skeleton, and Champion cards are not available in this game mode.
+Mega Draft Challenge: Each player will pick one out 36 cards to create a deck. The picking format follows a snake pattern, with the first player choosing a card being chosen randomly. Mirror and Clone are not available in this game mode.
+Built Decks Challenge: A challenge in which pre-built decks are given at random to each player. "Classic Decks Challenge" belongs to this mode, but may also be certain themed.
+Locked Card Challenge: A challenge in which players get to build a deck with any card in the game but have to use a specific card that is locked in the first slot. The player wins the featured card, often through one-time rewards.
+Mirror Challenge: Both players have the same random deck and have the same initial deck rotation. It also features the Mirror card, making the word "Mirror" a double entendre.
+Mini Collection: Each player is generated a subset of Cards. In this mode, different players may have different subsets of Cards.
+Notes
+Some combinations have special rules:
+In 2v2 Draft Challenges, player Blue 1 and player Red 1 pick cards for each other, and so do player Blue 2 and player Red 2. If the Challenge has a featured card, it will be guaranteed to appear in both pairs of opposing players and will end up being contained in two player's decks. Players of the same team can see each other's card picking process, and one player can wait a few seconds to see his teammate's choice before making his own choice, in order to get a better card combination and/or to prevent the opposing team from doing so.
+In 2v2 Mirror Challenges, player Blue 1 and player Red 1 get the same deck with the same initial deck rotation, and so do player Blue 2 and player Red 2. All four players have the Mirror card in the deck.
+In Elixir Golem Troop Rush Challenges, each bridge will also have one Elixir placed there for either player to collect, similarly to the Elixir Capture mode.
+In modes where the system generates troops (Troop Rush and Treasure Hunt), the level of troops generated is equal to the player's King Level. If a non-Common troop is generated and the player's King Level is lower than the minimum level of that troop, the player will get the minimum level of that troop; for example, a Level 8 player will get level 8 Baby Dragons and Electro Dragons and Level 9 Inferno Dragons in Dragon Hunt.
+In some Troop Rush modes, the spawned troops are spawned in random positions of the two players' sides instead of spawning behind the Crown Towers.
+In some Troop Rush, Locked Card, and Special Theme Challenges, the featured cards may have a buff to alter it from a regular card.
+
+
+Chess Royale is a game mode that can only be played in Special Event Challenges and Party Mode. It was added to the game as a collaboration of Supercell with Chess.com. In this mode, there is a King's Tower, but no Crown Towers, and they are instead replaced with a singular tower, with a female ranger on top of it. In addition to these towers, three more towers are available on each side of the Arena. These three towers have a male ranger, a charger and a Bomber on top, representing the Bishop, Knight, and Rook from a traditional chess game. Furthermore, 8 shielders are found in front of all the towers, representing the Pawns from chess. To win the battle, players have to destroy the King's Tower before theirs is destroyed or the Queen Tower before theirs is destroyed.
+
+Towers
+King's Tower
+Main article: King's Tower
+The King's Tower is the main Crown Tower of this mode. The King's Tower in Chess Royale functions identically to the King's Tower in regular 1v1 battles, meaning that if it is destroyed, the battle ends immediately. Unlike in regular 1v1 battles, the King's Tower in Chess Royale is always active, regardless on whether he has been attacked or not.
+
+Queen Tower
+The Queen Tower is the secondary Crown Tower of this mode. It acts as a replacement for the Crown Towers from regular 1v1 battles. Destroying this tower will grant 1 Crown for the player. An Archer Queen or Mother Witch can be found on top of it, and it attacks similar to the corresponding troop.
+
+Statistics
+RageSpell
+SlowIcon
+Hit Speed
+Damage Speed	Range
+Range	Target
+Targets
+0.9 sec	7	Air & Ground
+Level
+Level	Hitpoints
+Hitpoint	Damage
+Damage	Damage per second
+DPS
+1	1,400	88	97
+2	1,512	96	106
+3	1,624	106	117
+4	1,750	117	130
+5	1,890	128	142
+6	2,030	140	155
+7	2,184	154	171
+8	2,352	169	187
+9	2,534	186	206
+10	2,786	205	227
+11	3,052	225	250
+12	3,346	247	274
+13	3,668	271	301
+14	4,032	298	331
+15	4,424	327	363
+
+
+Bishop Tower
+The Bishop Tower is the first of the three non-Crown Tower buildings. Two of them are located in the Arena, one beside the King's Tower and one beside the Queen Tower. A Magic Archer or Executioner can be found on top of it, and it attacks similar to the corresponding troop.
+
+Statistics
+RageSpell
+SlowIcon
+Hit Speed
+Damage Speed	Range
+Range	Projectile Range
+Radius	Projectile Width
+Radius	Target
+Targets	Count
+Troop Count
+1.1 sec	5.5	7.5	0.5	Air & Ground	x2
+Level
+Level	Hitpoints
+Hitpoint	Area Damage
+Area Damage	Damage per second
+DPS
+11	1,200	134	121
+12	1,320	147	133
+13	1,452	162	147
+14	1,596	178	161
+15	1,752	195	177
+
+
+Knight Tower
+The Knight Tower is the second of the three non-Crown Tower buildings. Two of them are located in the Arena, each one beside the Bishop Towers. A Prince or Dark Prince can be found on top of it. Unlike the other towers, the Knight Tower does not attack. Instead, it spawns a charger every few seconds which will attack identically to the corresponding troop.
+
+Statistics
+RageSpell
+SlowIcon
+Knight Tower Attributes
+Spawn Speed
+Time	Count
+Troop Count
+15 sec	x2
+Prince Attributes
+Hit Speed
+Damage Speed	Speed
+Speed	Range
+Range	Target
+Targets	Transport
+Transport
+1.4 sec	Medium (60)	Melee: Long (1.6)	Ground	Ground
+Charge Attributes
+Speed
+Speed	Charge Range
+Radius	Target
+Targets	Transport
+Transport
+Very Fast (120)	3	Ground	Ground
+Knight Tower Statistics
+Level
+Level	Knight Tower Hitpoints
+Hitpoint	Prince Hitpoints
+Hitpoint	Prince Damage
+Damage	Prince Charge Damage
+Boost	Prince Damage per second
+DPS
+11	1,200	1,920	392	784	280
+12	1,320	2,112	431	862	307
+13	1,452	2,316	472	945	337
+14	1,596	2,544	519	1,038	370
+15	1,752	2,796	570	1,141	407
+
+
+Rook Tower
+The Rook Tower is the third of the three non-Crown Tower buildings. Two of them are located in the Arena, each one beside the Knight Towers. A Bomber can be found on top of it, and it attacks similar to a regular Bomb Tower. Unlike the Bomb Tower, the Rook Tower does not have Death Damage.
+
+Statistics
+RageSpell
+SlowIcon
+Hit Speed
+Damage Speed	Range
+Range	Splash Radius
+Radius	Target
+Targets	Count
+Troop Count
+1.1 sec	5.5	1.5	Air & Ground	x2
+Level
+Level	Hitpoints
+Hitpoint	Area Damage
+Area Damage	Damage per second
+DPS
+11	1,200	222	138
+12	1,320	244	152
+13	1,452	268	167
+14	1,596	295	184
+15	1,752	324	202
+
+
+Pawns
+The Pawns are the troops that are located in front of all the Towers. They resemble Royal Recruits or Guards and act identically to regular Royal Recruits except that they cannot move. Despite being immobile, they are considered a troop, meaning that they cannot be targeted by building-targeting troops and Earthquake will deal its troop damage to them.
+
+Strategy
+Even though they count as a troop, the Royal Recruits cannot move from their place. Because of this, they can be easily attacked by ranged units like the Musketeer and Magic Archer. Troops with chain attacks like the Electro Dragon are especially effective, as they can hit multiple of them with a single attack.
+The Knight Towers will periodically spawn chargers that will charge towards the enemy side. It is recommended to weaken those Towers with a Fireball and eventually destroying them, to prevent the opponent from spawning chargers, making it easier for you to create a push. Using Mirror with the Fireball allows you to destroy the Knight Towers without having to rotate through another Fireball in your card cycle.
+Unlike other game modes, there are no ways to expand the spawn area of cards like by defeating a Crown Tower. Because of this, X-Bows and Mortars do not have enough range to reach any of the opposing Towers. As such, they have to be used defensively, which are not very effective at doing on their own.
+It is generally more recommended to attack the side with the King's Tower instead of the side with the Queen Tower, as the King's Tower deals less damage.
+History
+2023
+
+The Chess Royale mode was added in the September 2023 Update. The first Chess Royale event started on 11/9/2023.
+2024
+
+The Chess Royale mode was added back in the October 2024 Update, called "Spooky Chess: Royale Challenge". However there were some notable differences , the Royal Recruits were also replaced with Guards as the pawns, along with the Executioner replacing the Bishop Tower, the Dark Prince replacing the Knight Tower (this also means Dark Prince spawned along a period of time until destroyed) the Bomber replacing as the Rook Tower and the Mother Witch replacing the Queens Tower,
