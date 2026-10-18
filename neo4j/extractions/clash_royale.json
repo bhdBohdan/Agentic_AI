@@ -1,0 +1,5030 @@
+{
+ "created": "2026-10-18",
+ "chunks": 259,
+ "corpus_fingerprint": "92079f64693ec569",
+ "complete": true,
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "per_call": 3,
+ "thinking": "default",
+ "mentions": [
+  {
+   "name": "Archer Queen",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#0"
+  },
+  {
+   "name": "Archer",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#1"
+  },
+  {
+   "name": "Arrow",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#2"
+  },
+  {
+   "name": "Baby Dragon",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#3"
+  },
+  {
+   "name": "Balloon",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#4"
+  },
+  {
+   "name": "Bandit",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#5"
+  },
+  {
+   "name": "Barbarian Barrel",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#6"
+  },
+  {
+   "name": "Barbarian Hut",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#7"
+  },
+  {
+   "name": "Barbarians",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#8"
+  },
+  {
+   "name": "Bat",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#9"
+  },
+  {
+   "name": "Battle Healer",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#10"
+  },
+  {
+   "name": "Battle Ram",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#11"
+  },
+  {
+   "name": "Berserker",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#12"
+  },
+  {
+   "name": "Bomb Tower",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#13"
+  },
+  {
+   "name": "Bomber",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#14"
+  },
+  {
+   "name": "Boss Bandit",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#15"
+  },
+  {
+   "name": "Bowler",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#16"
+  },
+  {
+   "name": "Cannon",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#17"
+  },
+  {
+   "name": "Cannon Cart",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#18"
+  },
+  {
+   "name": "Clone",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#19"
+  },
+  {
+   "name": "Dark Prince",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#20"
+  },
+  {
+   "name": "Dart Goblin",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#21"
+  },
+  {
+   "name": "Earthquake",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#22"
+  },
+  {
+   "name": "Electro Dragon",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#23"
+  },
+  {
+   "name": "Electro Giant",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#24"
+  },
+  {
+   "name": "Electro Spirit",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#25"
+  },
+  {
+   "name": "Electro Wizard",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#26"
+  },
+  {
+   "name": "Elite Barbarian",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#27"
+  },
+  {
+   "name": "Elixir Collector",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#28"
+  },
+  {
+   "name": "Elixir Golem",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#29"
+  },
+  {
+   "name": "Firecracker",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#33"
+  },
+  {
+   "name": "Fisherman",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#34"
+  },
+  {
+   "name": "Flying Machine",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#35"
+  },
+  {
+   "name": "Freeze",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#36"
+  },
+  {
+   "name": "Furnace",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#37"
+  },
+  {
+   "name": "Giant",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#38"
+  },
+  {
+   "name": "Giant Skeleton",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#39"
+  },
+  {
+   "name": "Giant Snowball",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#40"
+  },
+  {
+   "name": "Goblin Barrel",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#41"
+  },
+  {
+   "name": "Goblin Cage",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#42"
+  },
+  {
+   "name": "Goblin Curse",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#43"
+  },
+  {
+   "name": "Goblin Demolisher",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#44"
+  },
+  {
+   "name": "Goblin Drill",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#45"
+  },
+  {
+   "name": "Goblin Gang",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#46"
+  },
+  {
+   "name": "Goblin Giant",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#47"
+  },
+  {
+   "name": "Goblin Hut",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#48"
+  },
+  {
+   "name": "Goblin Machine",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#49"
+  },
+  {
+   "name": "Goblins",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#50"
+  },
+  {
+   "name": "Goblinstein",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#51"
+  },
+  {
+   "name": "Golden Knight",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#52"
+  },
+  {
+   "name": "Golem",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#53"
+  },
+  {
+   "name": "Graveyard",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#54"
+  },
+  {
+   "name": "Guards",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#55"
+  },
+  {
+   "name": "Heal Spirit",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#56"
+  },
+  {
+   "name": "Hog Rider",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#57"
+  },
+  {
+   "name": "Hunter",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#58"
+  },
+  {
+   "name": "Ice Golem",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#59"
+  },
+  {
+   "name": "Ice Spirit",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#60"
+  },
+  {
+   "name": "Ice Wizard",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#61"
+  },
+  {
+   "name": "Inferno Dragon",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#62"
+  },
+  {
+   "name": "Inferno Tower",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#63"
+  },
+  {
+   "name": "Knight",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#64"
+  },
+  {
+   "name": "Lava Hound",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#65"
+  },
+  {
+   "name": "Lightning",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#66"
+  },
+  {
+   "name": "Little Prince",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#67"
+  },
+  {
+   "name": "Lumberjack",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#68"
+  },
+  {
+   "name": "Magic Archer",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#69"
+  },
+  {
+   "name": "Mega Knight",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#70"
+  },
+  {
+   "name": "Mega Minion",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#71"
+  },
+  {
+   "name": "Mighty Miner",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#72"
+  },
+  {
+   "name": "Miner",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#73"
+  },
+  {
+   "name": "Mini P.E.K.K.A",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#74"
+  },
+  {
+   "name": "Minion Horde",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#75"
+  },
+  {
+   "name": "Minions",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#76"
+  },
+  {
+   "name": "Mirror",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#77"
+  },
+  {
+   "name": "Monk",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#78"
+  },
+  {
+   "name": "Mortar",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#79"
+  },
+  {
+   "name": "Mother Witch",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#80"
+  },
+  {
+   "name": "Musketeer",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#81"
+  },
+  {
+   "name": "Night Witch",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#82"
+  },
+  {
+   "name": "P.E.K.K.A",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#83"
+  },
+  {
+   "name": "Phoenix",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#84"
+  },
+  {
+   "name": "Poison",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#85"
+  },
+  {
+   "name": "Prince",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#86"
+  },
+  {
+   "name": "Princess",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#87"
+  },
+  {
+   "name": "Rage",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#88"
+  },
+  {
+   "name": "Ram Rider",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#89"
+  },
+  {
+   "name": "Rascals",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#90"
+  },
+  {
+   "name": "Rocket",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#91"
+  },
+  {
+   "name": "Royal Delivery",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#92"
+  },
+  {
+   "name": "Royal Ghost",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#93"
+  },
+  {
+   "name": "Royal Giant",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#94"
+  },
+  {
+   "name": "Royal Hogs",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#95"
+  },
+  {
+   "name": "Royal Recruits",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#96"
+  },
+  {
+   "name": "Rune Giant",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#97"
+  },
+  {
+   "name": "Skeleton Army",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#98"
+  },
+  {
+   "name": "Skeleton Barrel",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#99"
+  },
+  {
+   "name": "Skeleton Dragons",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#100"
+  },
+  {
+   "name": "Skeleton King",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#101"
+  },
+  {
+   "name": "Skeleton",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#102"
+  },
+  {
+   "name": "Sparky",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#103"
+  },
+  {
+   "name": "Spear Goblin",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#104"
+  },
+  {
+   "name": "Three Musketeers",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#108"
+  },
+  {
+   "name": "Tombstone",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#109"
+  },
+  {
+   "name": "Tornado",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#110"
+  },
+  {
+   "name": "Valkyrie",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#111"
+  },
+  {
+   "name": "Vines",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#112"
+  },
+  {
+   "name": "Void",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#113"
+  },
+  {
+   "name": "Wall Breaker",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#114"
+  },
+  {
+   "name": "Witch",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#115"
+  },
+  {
+   "name": "Wizard",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#116"
+  },
+  {
+   "name": "X-Bow",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#117"
+  },
+  {
+   "name": "Zap",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#118"
+  },
+  {
+   "name": "Zappies",
+   "type": "Card",
+   "chunk": "clash_royale_cards.xlsx#119"
+  },
+  {
+   "name": "Archer",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#0"
+  },
+  {
+   "name": "Baby Dragon",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#1"
+  },
+  {
+   "name": "Balloon",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#2"
+  },
+  {
+   "name": "Bandit",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#3"
+  },
+  {
+   "name": "Barbarians",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#4"
+  },
+  {
+   "name": "Bats",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#5"
+  },
+  {
+   "name": "Battle Ram",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#6"
+  },
+  {
+   "name": "Bomb Tower",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#7"
+  },
+  {
+   "name": "Bomber",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#8"
+  },
+  {
+   "name": "Bowler",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#9"
+  },
+  {
+   "name": "Cannon",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#10"
+  },
+  {
+   "name": "Cannon Cart",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#11"
+  },
+  {
+   "name": "Dark Prince",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#12"
+  },
+  {
+   "name": "Dart Goblin",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#13"
+  },
+  {
+   "name": "Electro Wizard",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#14"
+  },
+  {
+   "name": "Elite Barbarian",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#15"
+  },
+  {
+   "name": "Executioner",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#16"
+  },
+  {
+   "name": "Fire Spirit",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#17"
+  },
+  {
+   "name": "Giant",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#18"
+  },
+  {
+   "name": "Giant Skeleton",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#19"
+  },
+  {
+   "name": "Goblin Gang",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#20"
+  },
+  {
+   "name": "Goblins",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#21"
+  },
+  {
+   "name": "Golem",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#22"
+  },
+  {
+   "name": "Golemite",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#23"
+  },
+  {
+   "name": "Guard",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#24"
+  },
+  {
+   "name": "Hog Rider",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#25"
+  },
+  {
+   "name": "Ice Golem",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#26"
+  },
+  {
+   "name": "Ice Spirit",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#27"
+  },
+  {
+   "name": "Ice Wizard",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#28"
+  },
+  {
+   "name": "Inferno Dragon",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#29"
+  },
+  {
+   "name": "Inferno Tower",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#30"
+  },
+  {
+   "name": "Knight",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#31"
+  },
+  {
+   "name": "Lava Hound",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#32"
+  },
+  {
+   "name": "Lava Pup",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#33"
+  },
+  {
+   "name": "Lumberjack",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#34"
+  },
+  {
+   "name": "Mega Minion",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#35"
+  },
+  {
+   "name": "Mini P.E.K.K.A.",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#36"
+  },
+  {
+   "name": "Miner",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#37"
+  },
+  {
+   "name": "Minions",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#38"
+  },
+  {
+   "name": "Minion Horde",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#39"
+  },
+  {
+   "name": "Mortar",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#40"
+  },
+  {
+   "name": "Musketeer",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#41"
+  },
+  {
+   "name": "Night Witch",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#42"
+  },
+  {
+   "name": "P.E.K.K.A.",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#43"
+  },
+  {
+   "name": "Prince",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#44"
+  },
+  {
+   "name": "Princess",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#45"
+  },
+  {
+   "name": "Royal Giant",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#46"
+  },
+  {
+   "name": "Skeletons",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#47"
+  },
+  {
+   "name": "Skeleton Army",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#48"
+  },
+  {
+   "name": "Sparky",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#49"
+  },
+  {
+   "name": "Spear Goblins",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#50"
+  },
+  {
+   "name": "Tesla",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#51"
+  },
+  {
+   "name": "Three Musketeers",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#52"
+  },
+  {
+   "name": "Valkyrie",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#53"
+  },
+  {
+   "name": "Witch",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#54"
+  },
+  {
+   "name": "Wizard",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#55"
+  },
+  {
+   "name": "X-Bow",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#56"
+  },
+  {
+   "name": "Barbarian Hut",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#57"
+  },
+  {
+   "name": "Barbarians",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#57"
+  },
+  {
+   "name": "Furnace",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#58"
+  },
+  {
+   "name": "Fire Spirits",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#58"
+  },
+  {
+   "name": "Goblin Barrel",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#59"
+  },
+  {
+   "name": "Goblins",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#59"
+  },
+  {
+   "name": "Goblin Hut",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#60"
+  },
+  {
+   "name": "Spear Goblins",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#60"
+  },
+  {
+   "name": "Graveyard",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#61"
+  },
+  {
+   "name": "Skeletons",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#61"
+  },
+  {
+   "name": "Tombstone",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#62"
+  },
+  {
+   "name": "Skeletons",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#62"
+  },
+  {
+   "name": "Arrow",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#63"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "clash_wiki_dataset.csv#63"
+  },
+  {
+   "name": "Fireball",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#64"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "clash_wiki_dataset.csv#64"
+  },
+  {
+   "name": "Lightning",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#65"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "clash_wiki_dataset.csv#65"
+  },
+  {
+   "name": "Poison",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#66"
+  },
+  {
+   "name": "Rocket",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#67"
+  },
+  {
+   "name": "The Log",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#68"
+  },
+  {
+   "name": "Zap",
+   "type": "Card",
+   "chunk": "clash_wiki_dataset.csv#69"
+  },
+  {
+   "name": "Beatdown",
+   "type": "DeckType",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "name": "Golem",
+   "type": "Card",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "name": "Lumberjack",
+   "type": "Card",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "name": "Night Witch",
+   "type": "Card",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "name": "Baby Dragon",
+   "type": "Card",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "name": "Mega Minion",
+   "type": "Card",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "name": "Zap",
+   "type": "Card",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "name": "Tornado",
+   "type": "Card",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "name": "Lightning",
+   "type": "Card",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "name": "Giant",
+   "type": "Card",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "name": "Witch",
+   "type": "Card",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "name": "King Tower",
+   "type": "CrownTower",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "name": "Lava Hound",
+   "type": "Card",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "name": "Win condition",
+   "type": "Role",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "name": "Golem",
+   "type": "Card",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "name": "Lava Hound",
+   "type": "Card",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "name": "Win condition",
+   "type": "Role",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "name": "Control",
+   "type": "DeckType",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "name": "Miner",
+   "type": "Card",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "name": "Little Prince",
+   "type": "Card",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "name": "Poison",
+   "type": "Card",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "name": "Royal Ghost",
+   "type": "Card",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "name": "Goblin Hut",
+   "type": "Card",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "name": "Barbarian Barrel",
+   "type": "Card",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "name": "Skeletons",
+   "type": "Card",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "name": "Wallbreakers",
+   "type": "Card",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "name": "Control",
+   "type": "DeckType",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "name": "Rocket",
+   "type": "Card",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "name": "Poison",
+   "type": "Card",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "name": "Bait Deck",
+   "type": "DeckType",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "name": "Knight",
+   "type": "Card",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "name": "Princess",
+   "type": "Card",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "name": "Goblin Barrel",
+   "type": "Card",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "name": "Goblin Gang",
+   "type": "Card",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "name": "Inferno Tower",
+   "type": "Card",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "name": "The Log",
+   "type": "Card",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "name": "Ice Spirit",
+   "type": "Card",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "name": "Dart Goblin",
+   "type": "Card",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "name": "Log",
+   "type": "Card",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "name": "Arrows",
+   "type": "Card",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "name": "Beatdown",
+   "type": "DeckType",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "name": "Bridge Spam",
+   "type": "DeckType",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "name": "Battle Ram",
+   "type": "Card",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "name": "Royal Ghost",
+   "type": "Card",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "name": "Ice Golem",
+   "type": "Card",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "name": "Lumberjack",
+   "type": "Card",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "name": "Zappies",
+   "type": "Card",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "name": "Inferno Dragon",
+   "type": "Card",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "name": "Fireball",
+   "type": "Card",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "name": "Zap",
+   "type": "Card",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "name": "Bandit",
+   "type": "Card",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "name": "PEKKA",
+   "type": "Card",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "name": "Siege",
+   "type": "DeckType",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "name": "Archers",
+   "type": "Card",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "name": "Electro Spirit",
+   "type": "Card",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "name": "X-Bow",
+   "type": "Card",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "name": "Tesla",
+   "type": "Card",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "name": "Skeletons",
+   "type": "Card",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "name": "Fireball",
+   "type": "Card",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "The Log",
+   "type": "Card",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "Skeletons",
+   "type": "Card",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "Siege",
+   "type": "DeckType",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "Mortar",
+   "type": "Card",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "X-Bow",
+   "type": "Card",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "Tesla",
+   "type": "Card",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "Cycle Deck",
+   "type": "DeckType",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "Goblin Drill",
+   "type": "Card",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "Knight",
+   "type": "Card",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "Goblins",
+   "type": "Card",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "Fire Spirit",
+   "type": "Card",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "Bomber",
+   "type": "Card",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "Poison",
+   "type": "Card",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "Snowball",
+   "type": "Card",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "Cannon",
+   "type": "Card",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "name": "Elixir Management",
+   "type": "GameMechanic",
+   "chunk": "decktypes.txt#6"
+  },
+  {
+   "name": "Ice Spirit",
+   "type": "Card",
+   "chunk": "decktypes.txt#6"
+  },
+  {
+   "name": "Skeletons",
+   "type": "Card",
+   "chunk": "decktypes.txt#6"
+  },
+  {
+   "name": "Ice Golem",
+   "type": "Card",
+   "chunk": "decktypes.txt#6"
+  },
+  {
+   "name": "win condition",
+   "type": "Role",
+   "chunk": "decktypes.txt#6"
+  },
+  {
+   "name": "Golem",
+   "type": "Card",
+   "chunk": "decktypes.txt#6"
+  },
+  {
+   "name": "Electro Giant",
+   "type": "Card",
+   "chunk": "decktypes.txt#6"
+  },
+  {
+   "name": "Miner",
+   "type": "Card",
+   "chunk": "decktypes.txt#6"
+  },
+  {
+   "name": "Wall Breakers",
+   "type": "Card",
+   "chunk": "decktypes.txt#7"
+  },
+  {
+   "name": "Musketeer",
+   "type": "Card",
+   "chunk": "decktypes.txt#7"
+  },
+  {
+   "name": "Archers",
+   "type": "Card",
+   "chunk": "decktypes.txt#7"
+  },
+  {
+   "name": "Baby Dragon",
+   "type": "Card",
+   "chunk": "decktypes.txt#7"
+  },
+  {
+   "name": "Evo Baby Dragon",
+   "type": "Card",
+   "chunk": "decktypes.txt#7"
+  },
+  {
+   "name": "Balloon",
+   "type": "Card",
+   "chunk": "decktypes.txt#7"
+  },
+  {
+   "name": "Giant Snowball",
+   "type": "Card",
+   "chunk": "decktypes.txt#8"
+  },
+  {
+   "name": "Goblin Drill",
+   "type": "Card",
+   "chunk": "decktypes.txt#8"
+  },
+  {
+   "name": "Balloon",
+   "type": "Card",
+   "chunk": "decktypes.txt#8"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#0"
+  },
+  {
+   "name": "Miner",
+   "type": "Card",
+   "chunk": "GameModes.txt#1"
+  },
+  {
+   "name": "Goblin Drill",
+   "type": "Card",
+   "chunk": "GameModes.txt#1"
+  },
+  {
+   "name": "The Log",
+   "type": "Card",
+   "chunk": "GameModes.txt#1"
+  },
+  {
+   "name": "Graveyard",
+   "type": "Card",
+   "chunk": "GameModes.txt#1"
+  },
+  {
+   "name": "Barbarian Barrel",
+   "type": "Card",
+   "chunk": "GameModes.txt#1"
+  },
+  {
+   "name": "Royal Delivery",
+   "type": "Card",
+   "chunk": "GameModes.txt#1"
+  },
+  {
+   "name": "The Log",
+   "type": "Card",
+   "chunk": "GameModes.txt#2"
+  },
+  {
+   "name": "Graveyard",
+   "type": "Card",
+   "chunk": "GameModes.txt#2"
+  },
+  {
+   "name": "Barbarian Barrel",
+   "type": "Card",
+   "chunk": "GameModes.txt#2"
+  },
+  {
+   "name": "Royal Delivery",
+   "type": "Card",
+   "chunk": "GameModes.txt#2"
+  },
+  {
+   "name": "Hog Rider",
+   "type": "Card",
+   "chunk": "GameModes.txt#2"
+  },
+  {
+   "name": "Royal Hogs",
+   "type": "Card",
+   "chunk": "GameModes.txt#2"
+  },
+  {
+   "name": "Ram Rider",
+   "type": "Card",
+   "chunk": "GameModes.txt#2"
+  },
+  {
+   "name": "Freeze",
+   "type": "Card",
+   "chunk": "GameModes.txt#2"
+  },
+  {
+   "name": "Giant",
+   "type": "Card",
+   "chunk": "GameModes.txt#2"
+  },
+  {
+   "name": "X-Bow",
+   "type": "Card",
+   "chunk": "GameModes.txt#2"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#2"
+  },
+  {
+   "name": "Mortar",
+   "type": "Card",
+   "chunk": "GameModes.txt#2"
+  },
+  {
+   "name": "Cannon",
+   "type": "Card",
+   "chunk": "GameModes.txt#2"
+  },
+  {
+   "name": "Inferno Tower",
+   "type": "Card",
+   "chunk": "GameModes.txt#2"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#3"
+  },
+  {
+   "name": "Musketeer",
+   "type": "Card",
+   "chunk": "GameModes.txt#3"
+  },
+  {
+   "name": "Wizard",
+   "type": "Card",
+   "chunk": "GameModes.txt#3"
+  },
+  {
+   "name": "Fireball",
+   "type": "Card",
+   "chunk": "GameModes.txt#3"
+  },
+  {
+   "name": "Elixir Management",
+   "type": "GameMechanic",
+   "chunk": "GameModes.txt#3"
+  },
+  {
+   "name": "Skeletons",
+   "type": "Card",
+   "chunk": "GameModes.txt#4"
+  },
+  {
+   "name": "Royal Giant",
+   "type": "Card",
+   "chunk": "GameModes.txt#4"
+  },
+  {
+   "name": "Golem",
+   "type": "Card",
+   "chunk": "GameModes.txt#4"
+  },
+  {
+   "name": "Goblin Giant",
+   "type": "Card",
+   "chunk": "GameModes.txt#4"
+  },
+  {
+   "name": "Spear Goblins",
+   "type": "Card",
+   "chunk": "GameModes.txt#4"
+  },
+  {
+   "name": "Goblin Giant",
+   "type": "Card",
+   "chunk": "GameModes.txt#5"
+  },
+  {
+   "name": "Giant",
+   "type": "Card",
+   "chunk": "GameModes.txt#5"
+  },
+  {
+   "name": "Spear Goblins",
+   "type": "Card",
+   "chunk": "GameModes.txt#5"
+  },
+  {
+   "name": "Lava Hound",
+   "type": "Card",
+   "chunk": "GameModes.txt#5"
+  },
+  {
+   "name": "Balloon",
+   "type": "Card",
+   "chunk": "GameModes.txt#5"
+  },
+  {
+   "name": "Skeleton Barrel",
+   "type": "Card",
+   "chunk": "GameModes.txt#5"
+  },
+  {
+   "name": "Lava Pups",
+   "type": "Card",
+   "chunk": "GameModes.txt#5"
+  },
+  {
+   "name": "Skeletons",
+   "type": "Card",
+   "chunk": "GameModes.txt#5"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#5"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#6"
+  },
+  {
+   "name": "Tower Troop",
+   "type": "TowerTroop",
+   "chunk": "GameModes.txt#6"
+  },
+  {
+   "name": "King's Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#6"
+  },
+  {
+   "name": "Elixir Management",
+   "type": "GameMechanic",
+   "chunk": "GameModes.txt#7"
+  },
+  {
+   "name": "Rage",
+   "type": "Card",
+   "chunk": "GameModes.txt#7"
+  },
+  {
+   "name": "Clone",
+   "type": "Card",
+   "chunk": "GameModes.txt#7"
+  },
+  {
+   "name": "Rage",
+   "type": "Card",
+   "chunk": "GameModes.txt#8"
+  },
+  {
+   "name": "Clone",
+   "type": "Card",
+   "chunk": "GameModes.txt#8"
+  },
+  {
+   "name": "Freeze",
+   "type": "Card",
+   "chunk": "GameModes.txt#8"
+  },
+  {
+   "name": "Elixir Collector",
+   "type": "Card",
+   "chunk": "GameModes.txt#8"
+  },
+  {
+   "name": "Elixir Golem",
+   "type": "Card",
+   "chunk": "GameModes.txt#8"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#8"
+  },
+  {
+   "name": "King's Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#8"
+  },
+  {
+   "name": "Firecracker",
+   "type": "Card",
+   "chunk": "GameModes.txt#8"
+  },
+  {
+   "name": "Twin King Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#8"
+  },
+  {
+   "name": "Elixir Collector",
+   "type": "Card",
+   "chunk": "GameModes.txt#11"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#11"
+  },
+  {
+   "name": "Elixir Management",
+   "type": "GameMechanic",
+   "chunk": "GameModes.txt#11"
+  },
+  {
+   "name": "Heal",
+   "type": "Card",
+   "chunk": "GameModes.txt#12"
+  },
+  {
+   "name": "Rage",
+   "type": "Card",
+   "chunk": "GameModes.txt#12"
+  },
+  {
+   "name": "Clone",
+   "type": "Card",
+   "chunk": "GameModes.txt#12"
+  },
+  {
+   "name": "Invisibility",
+   "type": "Card",
+   "chunk": "GameModes.txt#12"
+  },
+  {
+   "name": "Goblin Barrel",
+   "type": "Card",
+   "chunk": "GameModes.txt#12"
+  },
+  {
+   "name": "Miner",
+   "type": "Card",
+   "chunk": "GameModes.txt#12"
+  },
+  {
+   "name": "Goblin Drill",
+   "type": "Card",
+   "chunk": "GameModes.txt#12"
+  },
+  {
+   "name": "Sparky",
+   "type": "Card",
+   "chunk": "GameModes.txt#12"
+  },
+  {
+   "name": "Rage",
+   "type": "Card",
+   "chunk": "GameModes.txt#13"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#13"
+  },
+  {
+   "name": "King's Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#13"
+  },
+  {
+   "name": "Archer Queen Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#13"
+  },
+  {
+   "name": "Magic Archer Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#13"
+  },
+  {
+   "name": "GameModes.txt",
+   "type": "Document",
+   "chunk": "GameModes.txt#11"
+  },
+  {
+   "name": "King's Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "name": "Archer Queen Tower",
+   "type": "TowerTroop",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "name": "Magic Archer Tower",
+   "type": "TowerTroop",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "name": "Prince Tower",
+   "type": "TowerTroop",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "name": "Bomb Tower",
+   "type": "TowerTroop",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "name": "Royal Recruits",
+   "type": "Card",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "name": "Rocket",
+   "type": "Card",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "name": "Earthquake",
+   "type": "Card",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "name": "Lightning",
+   "type": "Card",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "name": "Poison",
+   "type": "Card",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "name": "Goblin Drill",
+   "type": "Card",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "name": "Miner",
+   "type": "Card",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "name": "Champion",
+   "type": "Card",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "name": "Mirror",
+   "type": "Card",
+   "chunk": "GameModes.txt#16"
+  },
+  {
+   "name": "Clone",
+   "type": "Card",
+   "chunk": "GameModes.txt#16"
+  },
+  {
+   "name": "Mirror",
+   "type": "Card",
+   "chunk": "GameModes.txt#17"
+  },
+  {
+   "name": "Clone",
+   "type": "Card",
+   "chunk": "GameModes.txt#17"
+  },
+  {
+   "name": "Three Musketeers",
+   "type": "Card",
+   "chunk": "GameModes.txt#17"
+  },
+  {
+   "name": "Giant Skeleton",
+   "type": "Card",
+   "chunk": "GameModes.txt#17"
+  },
+  {
+   "name": "Champion",
+   "type": "Card",
+   "chunk": "GameModes.txt#17"
+  },
+  {
+   "name": "Mirror",
+   "type": "Card",
+   "chunk": "GameModes.txt#18"
+  },
+  {
+   "name": "Mirror",
+   "type": "Card",
+   "chunk": "GameModes.txt#19"
+  },
+  {
+   "name": "Baby Dragon",
+   "type": "Card",
+   "chunk": "GameModes.txt#19"
+  },
+  {
+   "name": "Electro Dragon",
+   "type": "Card",
+   "chunk": "GameModes.txt#19"
+  },
+  {
+   "name": "Inferno Dragon",
+   "type": "Card",
+   "chunk": "GameModes.txt#19"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#19"
+  },
+  {
+   "name": "Female Ranger",
+   "type": "TowerTroop",
+   "chunk": "GameModes.txt#20"
+  },
+  {
+   "name": "Male Ranger",
+   "type": "TowerTroop",
+   "chunk": "GameModes.txt#20"
+  },
+  {
+   "name": "Charger",
+   "type": "TowerTroop",
+   "chunk": "GameModes.txt#20"
+  },
+  {
+   "name": "Bomber",
+   "type": "TowerTroop",
+   "chunk": "GameModes.txt#20"
+  },
+  {
+   "name": "King's Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#20"
+  },
+  {
+   "name": "King's Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#21"
+  },
+  {
+   "name": "Queen Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#21"
+  },
+  {
+   "name": "Archer Queen",
+   "type": "TowerTroop",
+   "chunk": "GameModes.txt#21"
+  },
+  {
+   "name": "Mother Witch",
+   "type": "TowerTroop",
+   "chunk": "GameModes.txt#21"
+  },
+  {
+   "name": "Bishop Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#22"
+  },
+  {
+   "name": "Magic Archer",
+   "type": "TowerTroop",
+   "chunk": "GameModes.txt#22"
+  },
+  {
+   "name": "Executioner",
+   "type": "TowerTroop",
+   "chunk": "GameModes.txt#22"
+  },
+  {
+   "name": "Knight Tower",
+   "type": "TowerTroop",
+   "chunk": "GameModes.txt#23"
+  },
+  {
+   "name": "Prince",
+   "type": "Card",
+   "chunk": "GameModes.txt#23"
+  },
+  {
+   "name": "Dark Prince",
+   "type": "Card",
+   "chunk": "GameModes.txt#23"
+  },
+  {
+   "name": "Rook Tower",
+   "type": "TowerTroop",
+   "chunk": "GameModes.txt#24"
+  },
+  {
+   "name": "Bomb Tower",
+   "type": "Card",
+   "chunk": "GameModes.txt#24"
+  },
+  {
+   "name": "Bomber",
+   "type": "Card",
+   "chunk": "GameModes.txt#24"
+  },
+  {
+   "name": "Pawn",
+   "type": "Card",
+   "chunk": "GameModes.txt#24"
+  },
+  {
+   "name": "Royal Recruit",
+   "type": "Card",
+   "chunk": "GameModes.txt#24"
+  },
+  {
+   "name": "Guard",
+   "type": "Card",
+   "chunk": "GameModes.txt#24"
+  },
+  {
+   "name": "Musketeer",
+   "type": "Card",
+   "chunk": "GameModes.txt#25"
+  },
+  {
+   "name": "Magic Archer",
+   "type": "Card",
+   "chunk": "GameModes.txt#25"
+  },
+  {
+   "name": "Electro Dragon",
+   "type": "Card",
+   "chunk": "GameModes.txt#25"
+  },
+  {
+   "name": "Fireball",
+   "type": "Card",
+   "chunk": "GameModes.txt#25"
+  },
+  {
+   "name": "Mirror",
+   "type": "Card",
+   "chunk": "GameModes.txt#25"
+  },
+  {
+   "name": "Earthquake",
+   "type": "Card",
+   "chunk": "GameModes.txt#25"
+  },
+  {
+   "name": "Mirror",
+   "type": "Card",
+   "chunk": "GameModes.txt#26"
+  },
+  {
+   "name": "Fireball",
+   "type": "Card",
+   "chunk": "GameModes.txt#26"
+  },
+  {
+   "name": "Knight Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#26"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#26"
+  },
+  {
+   "name": "X-Bow",
+   "type": "Card",
+   "chunk": "GameModes.txt#26"
+  },
+  {
+   "name": "Mortar",
+   "type": "Card",
+   "chunk": "GameModes.txt#26"
+  },
+  {
+   "name": "King's Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#26"
+  },
+  {
+   "name": "Queen Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#26"
+  },
+  {
+   "name": "Royal Recruits",
+   "type": "Card",
+   "chunk": "GameModes.txt#26"
+  },
+  {
+   "name": "Guard",
+   "type": "Card",
+   "chunk": "GameModes.txt#26"
+  },
+  {
+   "name": "Executioner",
+   "type": "Card",
+   "chunk": "GameModes.txt#26"
+  },
+  {
+   "name": "Bishop Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#26"
+  },
+  {
+   "name": "Dark Prince",
+   "type": "Card",
+   "chunk": "GameModes.txt#26"
+  },
+  {
+   "name": "Bomber",
+   "type": "Card",
+   "chunk": "GameModes.txt#26"
+  },
+  {
+   "name": "Guard",
+   "type": "Card",
+   "chunk": "GameModes.txt#27"
+  },
+  {
+   "name": "Executioner",
+   "type": "Card",
+   "chunk": "GameModes.txt#27"
+  },
+  {
+   "name": "Bishop Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#27"
+  },
+  {
+   "name": "Dark Prince",
+   "type": "Card",
+   "chunk": "GameModes.txt#27"
+  },
+  {
+   "name": "Knight Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#27"
+  },
+  {
+   "name": "Bomber",
+   "type": "Card",
+   "chunk": "GameModes.txt#27"
+  },
+  {
+   "name": "Rook Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#27"
+  },
+  {
+   "name": "Mother Witch",
+   "type": "Card",
+   "chunk": "GameModes.txt#27"
+  },
+  {
+   "name": "Queen Tower",
+   "type": "CrownTower",
+   "chunk": "GameModes.txt#27"
+  },
+  {
+   "name": "King's Tower",
+   "type": "CrownTower",
+   "chunk": "how_to_play.md#0"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "how_to_play.md#0"
+  },
+  {
+   "name": "Princess Tower",
+   "type": "CrownTower",
+   "chunk": "how_to_play.md#1"
+  },
+  {
+   "name": "King's Tower",
+   "type": "CrownTower",
+   "chunk": "how_to_play.md#1"
+  },
+  {
+   "name": "Miner",
+   "type": "Card",
+   "chunk": "how_to_play.md#1"
+  },
+  {
+   "name": "Goblin",
+   "type": "Card",
+   "chunk": "how_to_play.md#1"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "how_to_play.md#2"
+  },
+  {
+   "name": "Miner",
+   "type": "Card",
+   "chunk": "how_to_play.md#2"
+  },
+  {
+   "name": "Goblin Barrel",
+   "type": "Card",
+   "chunk": "how_to_play.md#2"
+  },
+  {
+   "name": "Royal Recruits",
+   "type": "Card",
+   "chunk": "how_to_play.md#2"
+  },
+  {
+   "name": "Elixir Management",
+   "type": "GameMechanic",
+   "chunk": "how_to_play.md#2"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "how_to_play.md#3"
+  },
+  {
+   "name": "Cannoneer",
+   "type": "TowerTroop",
+   "chunk": "how_to_play.md#3"
+  },
+  {
+   "name": "Princess",
+   "type": "TowerTroop",
+   "chunk": "how_to_play.md#3"
+  },
+  {
+   "name": "Elixir Collector",
+   "type": "Card",
+   "chunk": "how_to_play.md#4"
+  },
+  {
+   "name": "Mirror",
+   "type": "Card",
+   "chunk": "how_to_play.md#4"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "how_to_play.md#4"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "how_to_play.md#5"
+  },
+  {
+   "name": "Hog Rider",
+   "type": "Card",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "name": "X-Bow",
+   "type": "Card",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "name": "Giant",
+   "type": "Card",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "name": "Battle Ram",
+   "type": "Card",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "name": "Fireball",
+   "type": "Card",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "name": "Zap",
+   "type": "Card",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "name": "Inferno Dragon",
+   "type": "Card",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "name": "Wizard",
+   "type": "Card",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "name": "Miner",
+   "type": "Card",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "name": "Goblin Barrel",
+   "type": "Card",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "name": "King Tower",
+   "type": "CrownTower",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "name": "Skeleton Army",
+   "type": "Card",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "name": "win condition",
+   "type": "Role",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "name": "Hog Rider",
+   "type": "Card",
+   "chunk": "strategies.txt#1"
+  },
+  {
+   "name": "Skeleton Army",
+   "type": "Card",
+   "chunk": "strategies.txt#1"
+  },
+  {
+   "name": "Arrows",
+   "type": "Card",
+   "chunk": "strategies.txt#1"
+  },
+  {
+   "name": "Zap",
+   "type": "Card",
+   "chunk": "strategies.txt#1"
+  },
+  {
+   "name": "Fireball",
+   "type": "Card",
+   "chunk": "strategies.txt#1"
+  },
+  {
+   "name": "Wizard",
+   "type": "Card",
+   "chunk": "strategies.txt#1"
+  },
+  {
+   "name": "Tornado",
+   "type": "Card",
+   "chunk": "strategies.txt#1"
+  },
+  {
+   "name": "Golem",
+   "type": "Card",
+   "chunk": "strategies.txt#1"
+  },
+  {
+   "name": "Skeletons",
+   "type": "Card",
+   "chunk": "strategies.txt#1"
+  },
+  {
+   "name": "Ice Spirit",
+   "type": "Card",
+   "chunk": "strategies.txt#1"
+  },
+  {
+   "name": "Bats",
+   "type": "Card",
+   "chunk": "strategies.txt#1"
+  },
+  {
+   "name": "Ice Golem",
+   "type": "Card",
+   "chunk": "strategies.txt#1"
+  },
+  {
+   "name": "Wall Breakers",
+   "type": "Card",
+   "chunk": "strategies.txt#1"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "strategies.txt#1"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "strategies.txt#2"
+  },
+  {
+   "name": "X-Bow",
+   "type": "Card",
+   "chunk": "strategies.txt#2"
+  },
+  {
+   "name": "Giant",
+   "type": "Card",
+   "chunk": "strategies.txt#2"
+  },
+  {
+   "name": "Electro Wizard",
+   "type": "Card",
+   "chunk": "strategies.txt#2"
+  },
+  {
+   "name": "Inferno Tower",
+   "type": "Card",
+   "chunk": "strategies.txt#2"
+  },
+  {
+   "name": "Elixir Management",
+   "type": "GameMechanic",
+   "chunk": "strategies.txt#2"
+  },
+  {
+   "name": "Minion Horde",
+   "type": "Card",
+   "chunk": "strategies.txt#2"
+  },
+  {
+   "name": "P.E.K.K.A.",
+   "type": "Card",
+   "chunk": "strategies.txt#2"
+  },
+  {
+   "name": "Knight",
+   "type": "Card",
+   "chunk": "strategies.txt#2"
+  },
+  {
+   "name": "Goblins",
+   "type": "Card",
+   "chunk": "strategies.txt#3"
+  },
+  {
+   "name": "Mini Pekka",
+   "type": "Card",
+   "chunk": "strategies.txt#3"
+  },
+  {
+   "name": "Freeze",
+   "type": "Card",
+   "chunk": "strategies.txt#3"
+  },
+  {
+   "name": "Hog",
+   "type": "Card",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "name": "Royal giant",
+   "type": "Card",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "name": "Balloon",
+   "type": "Card",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "name": "Fireball",
+   "type": "Card",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "name": "Zap",
+   "type": "Card",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "name": "P.E.K.K.A",
+   "type": "Card",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "name": "Valkyrie",
+   "type": "Card",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "name": "Inferno Dragon",
+   "type": "Card",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "name": "Wizard",
+   "type": "Card",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "name": "Princess",
+   "type": "Card",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "name": "Executioner",
+   "type": "Card",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "name": "Tornado",
+   "type": "Card",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "name": "Miner",
+   "type": "Card",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "name": "Goblin barrel",
+   "type": "Card",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "name": "Elixir Management",
+   "type": "GameMechanic",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "name": "Hog",
+   "type": "Card",
+   "chunk": "strategies.txt#5"
+  },
+  {
+   "name": "Inferno tower",
+   "type": "Card",
+   "chunk": "strategies.txt#5"
+  },
+  {
+   "name": "King tower",
+   "type": "CrownTower",
+   "chunk": "strategies.txt#5"
+  },
+  {
+   "name": "Musketeer",
+   "type": "Card",
+   "chunk": "strategies.txt#5"
+  },
+  {
+   "name": "Witch",
+   "type": "Card",
+   "chunk": "strategies.txt#5"
+  },
+  {
+   "name": "Ice Wizard",
+   "type": "Card",
+   "chunk": "strategies.txt#5"
+  },
+  {
+   "name": "Crown tower",
+   "type": "CrownTower",
+   "chunk": "strategies.txt#5"
+  },
+  {
+   "name": "P.E.K.K.A",
+   "type": "Card",
+   "chunk": "strategies.txt#6"
+  },
+  {
+   "name": "Barbarians",
+   "type": "Card",
+   "chunk": "strategies.txt#6"
+  },
+  {
+   "name": "Minion horde",
+   "type": "Card",
+   "chunk": "strategies.txt#6"
+  },
+  {
+   "name": "Hog rider",
+   "type": "Card",
+   "chunk": "strategies.txt#6"
+  },
+  {
+   "name": "Hog Rider",
+   "type": "Card",
+   "chunk": "strategies.txt#7"
+  },
+  {
+   "name": "Minion Horde",
+   "type": "Card",
+   "chunk": "strategies.txt#7"
+  },
+  {
+   "name": "Goblin Barrel",
+   "type": "Card",
+   "chunk": "strategies.txt#7"
+  },
+  {
+   "name": "Arrows",
+   "type": "Card",
+   "chunk": "strategies.txt#7"
+  },
+  {
+   "name": "Skeleton Army",
+   "type": "Card",
+   "chunk": "strategies.txt#7"
+  },
+  {
+   "name": "Zap",
+   "type": "Card",
+   "chunk": "strategies.txt#7"
+  },
+  {
+   "name": "Minion",
+   "type": "Card",
+   "chunk": "strategies.txt#7"
+  },
+  {
+   "name": "Baby Dragon",
+   "type": "Card",
+   "chunk": "strategies.txt#7"
+  },
+  {
+   "name": "Balloon",
+   "type": "Card",
+   "chunk": "strategies.txt#7"
+  },
+  {
+   "name": "Musketeer",
+   "type": "Card",
+   "chunk": "strategies.txt#8"
+  },
+  {
+   "name": "Mega Minion",
+   "type": "Card",
+   "chunk": "strategies.txt#8"
+  },
+  {
+   "name": "Zap Spell",
+   "type": "Card",
+   "chunk": "strategies.txt#8"
+  },
+  {
+   "name": "Inferno Tower",
+   "type": "Card",
+   "chunk": "strategies.txt#8"
+  },
+  {
+   "name": "Sparky",
+   "type": "Card",
+   "chunk": "strategies.txt#8"
+  },
+  {
+   "name": "Goblin",
+   "type": "Card",
+   "chunk": "strategies.txt#9"
+  },
+  {
+   "name": "Skeleton",
+   "type": "Card",
+   "chunk": "strategies.txt#9"
+  },
+  {
+   "name": "Giant",
+   "type": "Card",
+   "chunk": "strategies.txt#9"
+  },
+  {
+   "name": "Valkyrie",
+   "type": "Card",
+   "chunk": "strategies.txt#9"
+  },
+  {
+   "name": "Prince",
+   "type": "Card",
+   "chunk": "strategies.txt#9"
+  },
+  {
+   "name": "Rocket",
+   "type": "Card",
+   "chunk": "strategies.txt#9"
+  },
+  {
+   "name": "Lightning Spell",
+   "type": "Card",
+   "chunk": "strategies.txt#9"
+  },
+  {
+   "name": "Fireball",
+   "type": "Card",
+   "chunk": "strategies.txt#9"
+  },
+  {
+   "name": "Barbarian",
+   "type": "Card",
+   "chunk": "strategies.txt#9"
+  },
+  {
+   "name": "Zap",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Fireball",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Barbarian",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Minion Horde",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Musketeer",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Witch",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Wizard",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Electro Wizard",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Giant",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Princess",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Spear Goblin",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Goblin",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Minion",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Archer",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Baby Dragon",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Fire Spirit",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Bomber",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Valkyrie",
+   "type": "Card",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "strategies.txt#10"
+  },
+  {
+   "name": "Bomb Tower",
+   "type": "Card",
+   "chunk": "strategies.txt#11"
+  },
+  {
+   "name": "Furnace",
+   "type": "Card",
+   "chunk": "strategies.txt#11"
+  },
+  {
+   "name": "Ice Golem",
+   "type": "Card",
+   "chunk": "strategies.txt#11"
+  },
+  {
+   "name": "P.E.K.K.A.",
+   "type": "Card",
+   "chunk": "strategies.txt#11"
+  },
+  {
+   "name": "Arena Tower",
+   "type": "CrownTower",
+   "chunk": "strategies.txt#11"
+  },
+  {
+   "name": "Skeleton",
+   "type": "Card",
+   "chunk": "strategies.txt#11"
+  },
+  {
+   "name": "Knight",
+   "type": "Card",
+   "chunk": "strategies.txt#12"
+  },
+  {
+   "name": "Inferno Tower",
+   "type": "Card",
+   "chunk": "strategies.txt#12"
+  },
+  {
+   "name": "Battle Ram",
+   "type": "Card",
+   "chunk": "strategies.txt#12"
+  },
+  {
+   "name": "Tornado",
+   "type": "Card",
+   "chunk": "strategies.txt#12"
+  },
+  {
+   "name": "King Tower",
+   "type": "CrownTower",
+   "chunk": "strategies.txt#12"
+  },
+  {
+   "name": "Hog Rider",
+   "type": "Card",
+   "chunk": "strategies.txt#12"
+  },
+  {
+   "name": "Goblin Barrel",
+   "type": "Card",
+   "chunk": "strategies.txt#12"
+  },
+  {
+   "name": "Elite Barbarian",
+   "type": "Card",
+   "chunk": "strategies.txt#12"
+  },
+  {
+   "name": "Miner",
+   "type": "Card",
+   "chunk": "strategies.txt#12"
+  },
+  {
+   "name": "Elixir Management",
+   "type": "GameMechanic",
+   "chunk": "strategies.txt#11"
+  },
+  {
+   "name": "Tornado",
+   "type": "Card",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "King Tower",
+   "type": "CrownTower",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Hog Rider",
+   "type": "Card",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Goblin Barrel",
+   "type": "Card",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Elite Barbarian",
+   "type": "Card",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Miner",
+   "type": "Card",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Arena Tower",
+   "type": "CrownTower",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Elixir Management",
+   "type": "GameMechanic",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Executioner",
+   "type": "Card",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Wizard",
+   "type": "Card",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Skeleton Barrel",
+   "type": "Card",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Valkyrie",
+   "type": "Card",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Prince",
+   "type": "Card",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Giant Skeleton",
+   "type": "Card",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Giant",
+   "type": "Card",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Golem",
+   "type": "Card",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Battle Ram",
+   "type": "Card",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "name": "Elixir Control",
+   "type": "GameMechanic",
+   "chunk": "strategies.txt#14"
+  },
+  {
+   "name": "Cycling Deck",
+   "type": "DeckType",
+   "chunk": "strategies.txt#14"
+  },
+  {
+   "name": "Control Deck",
+   "type": "DeckType",
+   "chunk": "strategies.txt#15"
+  },
+  {
+   "name": "Poison",
+   "type": "Card",
+   "chunk": "strategies.txt#15"
+  },
+  {
+   "name": "Skeleton",
+   "type": "Card",
+   "chunk": "strategies.txt#15"
+  },
+  {
+   "name": "Ice Spirit",
+   "type": "Card",
+   "chunk": "strategies.txt#15"
+  },
+  {
+   "name": "Hog Rider",
+   "type": "Card",
+   "chunk": "strategies.txt#16"
+  },
+  {
+   "name": "Battle Ram",
+   "type": "Card",
+   "chunk": "strategies.txt#16"
+  },
+  {
+   "name": "Golem",
+   "type": "Card",
+   "chunk": "strategies.txt#16"
+  },
+  {
+   "name": "Goblin Barrel",
+   "type": "Card",
+   "chunk": "strategies.txt#16"
+  },
+  {
+   "name": "Log Lure",
+   "type": "DeckType",
+   "chunk": "strategies.txt#16"
+  },
+  {
+   "name": "Siege",
+   "type": "DeckType",
+   "chunk": "strategies.txt#16"
+  },
+  {
+   "name": "Tower Troop",
+   "type": "TowerTroop",
+   "chunk": "TowerTroops.txt#0"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "TowerTroops.txt#0"
+  },
+  {
+   "name": "Tower Princess",
+   "type": "TowerTroop",
+   "chunk": "TowerTroops.txt#0"
+  },
+  {
+   "name": "Royal Recruits",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#0"
+  },
+  {
+   "name": "Royal Recruits",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Firecracker",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Balloon",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Log",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Void",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Miner",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Arrows",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Poison",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Rocket",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Fireball",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Dart Goblin",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Goblinstein",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Zap",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Giant Snowball",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Rage",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Freeze",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Lightning",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Lumberjack",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#1"
+  },
+  {
+   "name": "Cannon",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#2"
+  },
+  {
+   "name": "Goblin Curse",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#2"
+  },
+  {
+   "name": "Tornado",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#2"
+  },
+  {
+   "name": "Goblin Machine",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#2"
+  },
+  {
+   "name": "Wizard",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#2"
+  },
+  {
+   "name": "Valkyrie",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#2"
+  },
+  {
+   "name": "Electro Giant",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#2"
+  },
+  {
+   "name": "Barbarian Barrel",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#2"
+  },
+  {
+   "name": "Earthquake",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#2"
+  },
+  {
+   "name": "Ice Golem",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#2"
+  },
+  {
+   "name": "Ice Wizard",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#2"
+  },
+  {
+   "name": "Tower Princess",
+   "type": "TowerTroop",
+   "chunk": "TowerTroops.txt#3"
+  },
+  {
+   "name": "Cannoneer",
+   "type": "TowerTroop",
+   "chunk": "TowerTroops.txt#3"
+  },
+  {
+   "name": "Dagger Duchess",
+   "type": "TowerTroop",
+   "chunk": "TowerTroops.txt#3"
+  },
+  {
+   "name": "Baby Goblins",
+   "type": "TowerTroop",
+   "chunk": "TowerTroops.txt#3"
+  },
+  {
+   "name": "Royal Chef",
+   "type": "TowerTroop",
+   "chunk": "TowerTroops.txt#3"
+  },
+  {
+   "name": "Cannoneer",
+   "type": "TowerTroop",
+   "chunk": "TowerTroops.txt#4"
+  },
+  {
+   "name": "Dagger Duchess",
+   "type": "TowerTroop",
+   "chunk": "TowerTroops.txt#4"
+  },
+  {
+   "name": "Royal Chef",
+   "type": "TowerTroop",
+   "chunk": "TowerTroops.txt#4"
+  },
+  {
+   "name": "Mini P.E.K.K.A.",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#4"
+  },
+  {
+   "name": "Baby Goblins",
+   "type": "TowerTroop",
+   "chunk": "TowerTroops.txt#5"
+  },
+  {
+   "name": "Goblin Queen Tower",
+   "type": "CrownTower",
+   "chunk": "TowerTroops.txt#5"
+  },
+  {
+   "name": "Tower Princess",
+   "type": "TowerTroop",
+   "chunk": "TowerTroops.txt#5"
+  },
+  {
+   "name": "Siege",
+   "type": "DeckType",
+   "chunk": "TowerTroops.txt#5"
+  },
+  {
+   "name": "Spell Cycle",
+   "type": "DeckType",
+   "chunk": "TowerTroops.txt#5"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Knight",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Hog Rider",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Royal Ghost",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Valkyrie",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Miner",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Golem",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Giant",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Goblin Queen",
+   "type": "CrownTower",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "P.E.K.K.A",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Three Musketeers",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Inferno Dragon",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Evolved Royal Recruits",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Mighty Miner",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Prince",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Elite Barbarians",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Sparky",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Night Witch",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "name": "Recruit",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#7"
+  },
+  {
+   "name": "Mighty Miner",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#7"
+  },
+  {
+   "name": "Prince",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#7"
+  },
+  {
+   "name": "Mini P.E.K.K.A",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#7"
+  },
+  {
+   "name": "Elite Barbarian",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#7"
+  },
+  {
+   "name": "Sparky",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#7"
+  },
+  {
+   "name": "Night Witch",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#7"
+  },
+  {
+   "name": "Baby Goblin",
+   "type": "TowerTroop",
+   "chunk": "TowerTroops.txt#7"
+  },
+  {
+   "name": "Goblin Queen",
+   "type": "TowerTroop",
+   "chunk": "TowerTroops.txt#7"
+  },
+  {
+   "name": "Golem",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#7"
+  },
+  {
+   "name": "Giant",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#7"
+  },
+  {
+   "name": "Crown Tower",
+   "type": "CrownTower",
+   "chunk": "TowerTroops.txt#7"
+  },
+  {
+   "name": "Tesla",
+   "type": "Card",
+   "chunk": "TowerTroops.txt#7"
+  }
+ ],
+ "relations": [
+  {
+   "source": "Beatdown",
+   "type": "INCLUDES_CARD",
+   "target": "Golem",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "source": "Beatdown",
+   "type": "INCLUDES_CARD",
+   "target": "Lumberjack",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "source": "Beatdown",
+   "type": "INCLUDES_CARD",
+   "target": "Night Witch",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "source": "Beatdown",
+   "type": "INCLUDES_CARD",
+   "target": "Baby Dragon",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "source": "Beatdown",
+   "type": "INCLUDES_CARD",
+   "target": "Mega Minion",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "source": "Beatdown",
+   "type": "INCLUDES_CARD",
+   "target": "Zap",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "source": "Beatdown",
+   "type": "INCLUDES_CARD",
+   "target": "Tornado",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "source": "Beatdown",
+   "type": "INCLUDES_CARD",
+   "target": "Lightning",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "source": "Giant",
+   "type": "HAS_ROLE",
+   "target": "Win condition",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "source": "Golem",
+   "type": "HAS_ROLE",
+   "target": "Win condition",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "source": "Lava Hound",
+   "type": "HAS_ROLE",
+   "target": "Win condition",
+   "chunk": "decktypes.txt#0"
+  },
+  {
+   "source": "Golem",
+   "type": "HAS_ROLE",
+   "target": "Win condition",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "source": "Lava Hound",
+   "type": "HAS_ROLE",
+   "target": "Win condition",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "source": "Control",
+   "type": "INCLUDES_CARD",
+   "target": "Miner",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "source": "Control",
+   "type": "INCLUDES_CARD",
+   "target": "Little Prince",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "source": "Control",
+   "type": "INCLUDES_CARD",
+   "target": "Poison",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "source": "Control",
+   "type": "INCLUDES_CARD",
+   "target": "Royal Ghost",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "source": "Control",
+   "type": "INCLUDES_CARD",
+   "target": "Goblin Hut",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "source": "Control",
+   "type": "INCLUDES_CARD",
+   "target": "Barbarian Barrel",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "source": "Control",
+   "type": "INCLUDES_CARD",
+   "target": "Skeletons",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "source": "Control",
+   "type": "INCLUDES_CARD",
+   "target": "Wallbreakers",
+   "chunk": "decktypes.txt#1"
+  },
+  {
+   "source": "Bait Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Knight",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "source": "Bait Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Princess",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "source": "Bait Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Goblin Barrel",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "source": "Bait Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Goblin Gang",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "source": "Bait Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Inferno Tower",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "source": "Bait Deck",
+   "type": "INCLUDES_CARD",
+   "target": "The Log",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "source": "Bait Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Rocket",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "source": "Bait Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Ice Spirit",
+   "chunk": "decktypes.txt#2"
+  },
+  {
+   "source": "Bridge Spam",
+   "type": "INCLUDES_CARD",
+   "target": "Battle Ram",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "source": "Bridge Spam",
+   "type": "INCLUDES_CARD",
+   "target": "Royal Ghost",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "source": "Bridge Spam",
+   "type": "INCLUDES_CARD",
+   "target": "Ice Golem",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "source": "Bridge Spam",
+   "type": "INCLUDES_CARD",
+   "target": "Lumberjack",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "source": "Bridge Spam",
+   "type": "INCLUDES_CARD",
+   "target": "Zappies",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "source": "Bridge Spam",
+   "type": "INCLUDES_CARD",
+   "target": "Inferno Dragon",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "source": "Bridge Spam",
+   "type": "INCLUDES_CARD",
+   "target": "Fireball",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "source": "Bridge Spam",
+   "type": "INCLUDES_CARD",
+   "target": "Zap",
+   "chunk": "decktypes.txt#3"
+  },
+  {
+   "source": "Bridge Spam",
+   "type": "INCLUDES_CARD",
+   "target": "Bandit",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "source": "Siege",
+   "type": "INCLUDES_CARD",
+   "target": "Archers",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "source": "Siege",
+   "type": "INCLUDES_CARD",
+   "target": "Electro Spirit",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "source": "Siege",
+   "type": "INCLUDES_CARD",
+   "target": "Knight",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "source": "Siege",
+   "type": "INCLUDES_CARD",
+   "target": "X-Bow",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "source": "Siege",
+   "type": "INCLUDES_CARD",
+   "target": "Tesla",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "source": "Siege",
+   "type": "INCLUDES_CARD",
+   "target": "Fireball",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "source": "Siege",
+   "type": "INCLUDES_CARD",
+   "target": "The Log",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "source": "Siege",
+   "type": "INCLUDES_CARD",
+   "target": "Skeletons",
+   "chunk": "decktypes.txt#4"
+  },
+  {
+   "source": "Siege",
+   "type": "INCLUDES_CARD",
+   "target": "Mortar",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "source": "Siege",
+   "type": "INCLUDES_CARD",
+   "target": "X-Bow",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "source": "Mortar",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "source": "X-Bow",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "source": "Tesla",
+   "type": "INCLUDES_CARD",
+   "target": "X-Bow",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "source": "Cycle Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Goblin Drill",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "source": "Cycle Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Knight",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "source": "Cycle Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Goblins",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "source": "Cycle Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Fire Spirit",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "source": "Cycle Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Bomber",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "source": "Cycle Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Poison",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "source": "Cycle Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Snowball",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "source": "Cycle Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Cannon",
+   "chunk": "decktypes.txt#5"
+  },
+  {
+   "source": "Golem",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "decktypes.txt#6"
+  },
+  {
+   "source": "Electro Giant",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "decktypes.txt#6"
+  },
+  {
+   "source": "Miner",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "decktypes.txt#6"
+  },
+  {
+   "source": "X-Bow",
+   "type": "HAS_ROLE",
+   "target": "Crown Tower",
+   "chunk": "GameModes.txt#2"
+  },
+  {
+   "source": "Fireball",
+   "type": "INTERACTS_WITH",
+   "target": "Elixir Management",
+   "chunk": "GameModes.txt#3"
+  },
+  {
+   "source": "Skeletons",
+   "type": "INTERACTS_WITH",
+   "target": "Elixir Management",
+   "chunk": "GameModes.txt#4"
+  },
+  {
+   "source": "Tower Troop",
+   "type": "DEFENDS",
+   "target": "Crown Tower",
+   "chunk": "GameModes.txt#6"
+  },
+  {
+   "source": "Firecracker",
+   "type": "INTERACTS_WITH",
+   "target": "Twin King Tower",
+   "chunk": "GameModes.txt#8"
+  },
+  {
+   "source": "Crown Tower",
+   "type": "DEFENDS",
+   "target": "Crown Tower",
+   "chunk": "GameModes.txt#8"
+  },
+  {
+   "source": "GameModes.txt",
+   "type": "DESCRIBES",
+   "target": "Elixir Management",
+   "chunk": "GameModes.txt#11"
+  },
+  {
+   "source": "Rage",
+   "type": "INTERACTS_WITH",
+   "target": "Elixir Management",
+   "chunk": "GameModes.txt#13"
+  },
+  {
+   "source": "Archer Queen Tower",
+   "type": "DEFENDS",
+   "target": "King's Tower",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "source": "Magic Archer Tower",
+   "type": "DEFENDS",
+   "target": "King's Tower",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "source": "Prince Tower",
+   "type": "DEFENDS",
+   "target": "King's Tower",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "source": "Bomb Tower",
+   "type": "DEFENDS",
+   "target": "King's Tower",
+   "chunk": "GameModes.txt#14"
+  },
+  {
+   "source": "Archer Queen",
+   "type": "DEFENDS",
+   "target": "Queen Tower",
+   "chunk": "GameModes.txt#21"
+  },
+  {
+   "source": "Mother Witch",
+   "type": "DEFENDS",
+   "target": "Queen Tower",
+   "chunk": "GameModes.txt#21"
+  },
+  {
+   "source": "Magic Archer",
+   "type": "DEFENDS",
+   "target": "Bishop Tower",
+   "chunk": "GameModes.txt#22"
+  },
+  {
+   "source": "Executioner",
+   "type": "DEFENDS",
+   "target": "Bishop Tower",
+   "chunk": "GameModes.txt#22"
+  },
+  {
+   "source": "Mirror",
+   "type": "INTERACTS_WITH",
+   "target": "Fireball",
+   "chunk": "GameModes.txt#26"
+  },
+  {
+   "source": "Princess Tower",
+   "type": "DEFENDS",
+   "target": "Crown Tower",
+   "chunk": "how_to_play.md#1"
+  },
+  {
+   "source": "King's Tower",
+   "type": "DEFENDS",
+   "target": "Crown Tower",
+   "chunk": "how_to_play.md#1"
+  },
+  {
+   "source": "Miner",
+   "type": "INTERACTS_WITH",
+   "target": "Elixir Management",
+   "chunk": "how_to_play.md#2"
+  },
+  {
+   "source": "Goblin Barrel",
+   "type": "INTERACTS_WITH",
+   "target": "Elixir Management",
+   "chunk": "how_to_play.md#2"
+  },
+  {
+   "source": "Cannoneer",
+   "type": "DEFENDS",
+   "target": "Crown Tower",
+   "chunk": "how_to_play.md#3"
+  },
+  {
+   "source": "Princess",
+   "type": "DEFENDS",
+   "target": "Crown Tower",
+   "chunk": "how_to_play.md#3"
+  },
+  {
+   "source": "Hog Rider",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "source": "X-Bow",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "source": "Giant",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "source": "Battle Ram",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "strategies.txt#0"
+  },
+  {
+   "source": "Hog Rider",
+   "type": "INTERACTS_WITH",
+   "target": "Elixir Management",
+   "chunk": "strategies.txt#1"
+  },
+  {
+   "source": "Inferno Tower",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "strategies.txt#2"
+  },
+  {
+   "source": "Knight",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "strategies.txt#2"
+  },
+  {
+   "source": "Skeletons",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "strategies.txt#2"
+  },
+  {
+   "source": "Ice Golem",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "strategies.txt#2"
+  },
+  {
+   "source": "Giant",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "strategies.txt#3"
+  },
+  {
+   "source": "Wizard",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "strategies.txt#3"
+  },
+  {
+   "source": "Hog",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "source": "Royal giant",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "source": "Balloon",
+   "type": "HAS_ROLE",
+   "target": "win condition",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "source": "Hog",
+   "type": "INTERACTS_WITH",
+   "target": "Elixir Management",
+   "chunk": "strategies.txt#4"
+  },
+  {
+   "source": "Musketeer",
+   "type": "DEFENDS",
+   "target": "Crown tower",
+   "chunk": "strategies.txt#6"
+  },
+  {
+   "source": "Witch",
+   "type": "DEFENDS",
+   "target": "Crown tower",
+   "chunk": "strategies.txt#6"
+  },
+  {
+   "source": "Wizard",
+   "type": "DEFENDS",
+   "target": "Crown tower",
+   "chunk": "strategies.txt#6"
+  },
+  {
+   "source": "Princess",
+   "type": "DEFENDS",
+   "target": "Crown tower",
+   "chunk": "strategies.txt#6"
+  },
+  {
+   "source": "Ice Wizard",
+   "type": "DEFENDS",
+   "target": "Crown tower",
+   "chunk": "strategies.txt#6"
+  },
+  {
+   "source": "Zap Spell",
+   "type": "INTERACTS_WITH",
+   "target": "Inferno Tower",
+   "chunk": "strategies.txt#8"
+  },
+  {
+   "source": "Zap Spell",
+   "type": "INTERACTS_WITH",
+   "target": "Sparky",
+   "chunk": "strategies.txt#8"
+  },
+  {
+   "source": "Zap",
+   "type": "INTERACTS_WITH",
+   "target": "Elixir Management",
+   "chunk": "strategies.txt#12"
+  },
+  {
+   "source": "Tornado",
+   "type": "INTERACTS_WITH",
+   "target": "Elixir Management",
+   "chunk": "strategies.txt#12"
+  },
+  {
+   "source": "Tornado",
+   "type": "INTERACTS_WITH",
+   "target": "Elixir Management",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "source": "Tornado",
+   "type": "DEFENDS",
+   "target": "Arena Tower",
+   "chunk": "strategies.txt#13"
+  },
+  {
+   "source": "strategies.txt#14",
+   "type": "DESCRIBES",
+   "target": "Elixir Control",
+   "chunk": "strategies.txt#14"
+  },
+  {
+   "source": "Control Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Miner",
+   "chunk": "strategies.txt#15"
+  },
+  {
+   "source": "Control Deck",
+   "type": "INCLUDES_CARD",
+   "target": "Poison",
+   "chunk": "strategies.txt#15"
+  },
+  {
+   "source": "Log Lure",
+   "type": "INCLUDES_CARD",
+   "target": "Goblin Barrel",
+   "chunk": "strategies.txt#16"
+  },
+  {
+   "source": "Tower Troop",
+   "type": "DEFENDS",
+   "target": "Crown Tower",
+   "chunk": "TowerTroops.txt#0"
+  },
+  {
+   "source": "Tower Princess",
+   "type": "DEFENDS",
+   "target": "Crown Tower",
+   "chunk": "TowerTroops.txt#3"
+  },
+  {
+   "source": "Cannoneer",
+   "type": "DEFENDS",
+   "target": "Crown Tower",
+   "chunk": "TowerTroops.txt#3"
+  },
+  {
+   "source": "Baby Goblins",
+   "type": "DEFENDS",
+   "target": "Goblin Queen Tower",
+   "chunk": "TowerTroops.txt#5"
+  },
+  {
+   "source": "Siege",
+   "type": "INCLUDES_CARD",
+   "target": "Baby Goblins",
+   "chunk": "TowerTroops.txt#5"
+  },
+  {
+   "source": "Spell Cycle",
+   "type": "INCLUDES_CARD",
+   "target": "Baby Goblins",
+   "chunk": "TowerTroops.txt#5"
+  },
+  {
+   "source": "Baby Goblins",
+   "type": "DEFENDS",
+   "target": "Goblin Queen",
+   "chunk": "TowerTroops.txt#6"
+  },
+  {
+   "source": "Baby Goblin",
+   "type": "DEFENDS",
+   "target": "Crown Tower",
+   "chunk": "TowerTroops.txt#7"
+  }
+ ],
+ "calls": [
+  {
+   "chunks": 3,
+   "seconds": 2.4,
+   "prompt": 737,
+   "thinking": 0,
+   "answer": 146
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.2,
+   "prompt": 747,
+   "thinking": 0,
+   "answer": 147
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.1,
+   "prompt": 749,
+   "thinking": 0,
+   "answer": 150
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.3,
+   "prompt": 821,
+   "thinking": 0,
+   "answer": 150
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.3,
+   "prompt": 755,
+   "thinking": 0,
+   "answer": 152
+  },
+  {
+   "chunks": 3,
+   "seconds": 0.9,
+   "prompt": 756,
+   "thinking": 0,
+   "answer": 150
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.3,
+   "prompt": 672,
+   "thinking": 0,
+   "answer": 150
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.0,
+   "prompt": 801,
+   "thinking": 0,
+   "answer": 151
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.5,
+   "prompt": 681,
+   "thinking": 0,
+   "answer": 151
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.4,
+   "prompt": 692,
+   "thinking": 0,
+   "answer": 155
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.5,
+   "prompt": 752,
+   "thinking": 0,
+   "answer": 56
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.7,
+   "prompt": 754,
+   "thinking": 0,
+   "answer": 151
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.8,
+   "prompt": 740,
+   "thinking": 0,
+   "answer": 149
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.3,
+   "prompt": 809,
+   "thinking": 0,
+   "answer": 153
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.5,
+   "prompt": 754,
+   "thinking": 0,
+   "answer": 156
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.2,
+   "prompt": 816,
+   "thinking": 0,
+   "answer": 154
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.7,
+   "prompt": 680,
+   "thinking": 0,
+   "answer": 153
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.8,
+   "prompt": 691,
+   "thinking": 0,
+   "answer": 151
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.9,
+   "prompt": 674,
+   "thinking": 0,
+   "answer": 152
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.4,
+   "prompt": 752,
+   "thinking": 0,
+   "answer": 152
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.7,
+   "prompt": 823,
+   "thinking": 0,
+   "answer": 152
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.7,
+   "prompt": 745,
+   "thinking": 0,
+   "answer": 152
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.8,
+   "prompt": 748,
+   "thinking": 0,
+   "answer": 151
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.5,
+   "prompt": 750,
+   "thinking": 0,
+   "answer": 152
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.9,
+   "prompt": 693,
+   "thinking": 0,
+   "answer": 160
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.5,
+   "prompt": 666,
+   "thinking": 0,
+   "answer": 151
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.0,
+   "prompt": 746,
+   "thinking": 0,
+   "answer": 151
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.8,
+   "prompt": 822,
+   "thinking": 0,
+   "answer": 160
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.4,
+   "prompt": 677,
+   "thinking": 0,
+   "answer": 149
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.9,
+   "prompt": 675,
+   "thinking": 0,
+   "answer": 150
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.7,
+   "prompt": 679,
+   "thinking": 0,
+   "answer": 151
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.3,
+   "prompt": 821,
+   "thinking": 0,
+   "answer": 152
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.4,
+   "prompt": 812,
+   "thinking": 0,
+   "answer": 153
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.1,
+   "prompt": 757,
+   "thinking": 0,
+   "answer": 153
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.2,
+   "prompt": 752,
+   "thinking": 0,
+   "answer": 154
+  },
+  {
+   "chunks": 3,
+   "seconds": 3.5,
+   "prompt": 742,
+   "thinking": 0,
+   "answer": 124
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.9,
+   "prompt": 681,
+   "thinking": 0,
+   "answer": 156
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.3,
+   "prompt": 727,
+   "thinking": 0,
+   "answer": 155
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.6,
+   "prompt": 896,
+   "thinking": 0,
+   "answer": 109
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.1,
+   "prompt": 754,
+   "thinking": 0,
+   "answer": 155
+  },
+  {
+   "chunks": 3,
+   "seconds": 4.3,
+   "prompt": 555,
+   "thinking": 0,
+   "answer": 143
+  },
+  {
+   "chunks": 3,
+   "seconds": 5.9,
+   "prompt": 545,
+   "thinking": 0,
+   "answer": 144
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.2,
+   "prompt": 553,
+   "thinking": 0,
+   "answer": 145
+  },
+  {
+   "chunks": 3,
+   "seconds": 4.0,
+   "prompt": 565,
+   "thinking": 0,
+   "answer": 146
+  },
+  {
+   "chunks": 3,
+   "seconds": 4.2,
+   "prompt": 563,
+   "thinking": 0,
+   "answer": 148
+  },
+  {
+   "chunks": 3,
+   "seconds": 4.9,
+   "prompt": 557,
+   "thinking": 0,
+   "answer": 149
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.2,
+   "prompt": 579,
+   "thinking": 0,
+   "answer": 148
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.2,
+   "prompt": 561,
+   "thinking": 0,
+   "answer": 147
+  },
+  {
+   "chunks": 3,
+   "seconds": 0.8,
+   "prompt": 562,
+   "thinking": 0,
+   "answer": 84
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.3,
+   "prompt": 562,
+   "thinking": 0,
+   "answer": 149
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.0,
+   "prompt": 568,
+   "thinking": 0,
+   "answer": 149
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.2,
+   "prompt": 555,
+   "thinking": 0,
+   "answer": 151
+  },
+  {
+   "chunks": 3,
+   "seconds": 0.9,
+   "prompt": 565,
+   "thinking": 0,
+   "answer": 155
+  },
+  {
+   "chunks": 3,
+   "seconds": 0.8,
+   "prompt": 556,
+   "thinking": 0,
+   "answer": 150
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.0,
+   "prompt": 568,
+   "thinking": 0,
+   "answer": 154
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.3,
+   "prompt": 552,
+   "thinking": 0,
+   "answer": 148
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.3,
+   "prompt": 556,
+   "thinking": 0,
+   "answer": 150
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.0,
+   "prompt": 562,
+   "thinking": 0,
+   "answer": 106
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.1,
+   "prompt": 561,
+   "thinking": 0,
+   "answer": 148
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.3,
+   "prompt": 607,
+   "thinking": 0,
+   "answer": 279
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.1,
+   "prompt": 609,
+   "thinking": 0,
+   "answer": 283
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.5,
+   "prompt": 468,
+   "thinking": 0,
+   "answer": 278
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.0,
+   "prompt": 470,
+   "thinking": 0,
+   "answer": 102
+  },
+  {
+   "chunks": 3,
+   "seconds": 3.3,
+   "prompt": 843,
+   "thinking": 0,
+   "answer": 1570
+  },
+  {
+   "chunks": 3,
+   "seconds": 3.8,
+   "prompt": 1024,
+   "thinking": 0,
+   "answer": 2001
+  },
+  {
+   "chunks": 3,
+   "seconds": 3.2,
+   "prompt": 1059,
+   "thinking": 0,
+   "answer": 1473
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.5,
+   "prompt": 876,
+   "thinking": 0,
+   "answer": 402
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.2,
+   "prompt": 1042,
+   "thinking": 0,
+   "answer": 823
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.0,
+   "prompt": 1120,
+   "thinking": 0,
+   "answer": 654
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.6,
+   "prompt": 1113,
+   "thinking": 0,
+   "answer": 471
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.4,
+   "prompt": 1128,
+   "thinking": 0,
+   "answer": 806
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.1,
+   "prompt": 1051,
+   "thinking": 0,
+   "answer": 624
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.5,
+   "prompt": 1052,
+   "thinking": 0,
+   "answer": 446
+  },
+  {
+   "chunks": 3,
+   "seconds": 3.2,
+   "prompt": 1355,
+   "thinking": 0,
+   "answer": 574
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.2,
+   "prompt": 1348,
+   "thinking": 0,
+   "answer": 607
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.8,
+   "prompt": 922,
+   "thinking": 0,
+   "answer": 1067
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.1,
+   "prompt": 1171,
+   "thinking": 0,
+   "answer": 651
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.9,
+   "prompt": 1012,
+   "thinking": 0,
+   "answer": 863
+  },
+  {
+   "chunks": 3,
+   "seconds": 3.0,
+   "prompt": 1055,
+   "thinking": 0,
+   "answer": 1336
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.9,
+   "prompt": 1083,
+   "thinking": 0,
+   "answer": 1137
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.2,
+   "prompt": 1060,
+   "thinking": 0,
+   "answer": 721
+  },
+  {
+   "chunks": 3,
+   "seconds": 3.5,
+   "prompt": 1136,
+   "thinking": 0,
+   "answer": 1470
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.4,
+   "prompt": 1063,
+   "thinking": 0,
+   "answer": 924
+  },
+  {
+   "chunks": 3,
+   "seconds": 1.6,
+   "prompt": 970,
+   "thinking": 0,
+   "answer": 517
+  },
+  {
+   "chunks": 3,
+   "seconds": 2.9,
+   "prompt": 1307,
+   "thinking": 0,
+   "answer": 1199
+  },
+  {
+   "chunks": 3,
+   "seconds": 3.1,
+   "prompt": 1126,
+   "thinking": 0,
+   "answer": 1323
+  },
+  {
+   "chunks": 1,
+   "seconds": 1.7,
+   "prompt": 481,
+   "thinking": 0,
+   "answer": 590
+  }
+ ],
+ "done": [
+  "clash_royale_cards.xlsx#0",
+  "clash_royale_cards.xlsx#1",
+  "clash_royale_cards.xlsx#2",
+  "clash_royale_cards.xlsx#3",
+  "clash_royale_cards.xlsx#4",
+  "clash_royale_cards.xlsx#5",
+  "clash_royale_cards.xlsx#6",
+  "clash_royale_cards.xlsx#7",
+  "clash_royale_cards.xlsx#8",
+  "clash_royale_cards.xlsx#9",
+  "clash_royale_cards.xlsx#10",
+  "clash_royale_cards.xlsx#11",
+  "clash_royale_cards.xlsx#12",
+  "clash_royale_cards.xlsx#13",
+  "clash_royale_cards.xlsx#14",
+  "clash_royale_cards.xlsx#15",
+  "clash_royale_cards.xlsx#16",
+  "clash_royale_cards.xlsx#17",
+  "clash_royale_cards.xlsx#18",
+  "clash_royale_cards.xlsx#19",
+  "clash_royale_cards.xlsx#20",
+  "clash_royale_cards.xlsx#21",
+  "clash_royale_cards.xlsx#22",
+  "clash_royale_cards.xlsx#23",
+  "clash_royale_cards.xlsx#24",
+  "clash_royale_cards.xlsx#25",
+  "clash_royale_cards.xlsx#26",
+  "clash_royale_cards.xlsx#27",
+  "clash_royale_cards.xlsx#28",
+  "clash_royale_cards.xlsx#29",
+  "clash_royale_cards.xlsx#30",
+  "clash_royale_cards.xlsx#31",
+  "clash_royale_cards.xlsx#32",
+  "clash_royale_cards.xlsx#33",
+  "clash_royale_cards.xlsx#34",
+  "clash_royale_cards.xlsx#35",
+  "clash_royale_cards.xlsx#36",
+  "clash_royale_cards.xlsx#37",
+  "clash_royale_cards.xlsx#38",
+  "clash_royale_cards.xlsx#39",
+  "clash_royale_cards.xlsx#40",
+  "clash_royale_cards.xlsx#41",
+  "clash_royale_cards.xlsx#42",
+  "clash_royale_cards.xlsx#43",
+  "clash_royale_cards.xlsx#44",
+  "clash_royale_cards.xlsx#45",
+  "clash_royale_cards.xlsx#46",
+  "clash_royale_cards.xlsx#47",
+  "clash_royale_cards.xlsx#48",
+  "clash_royale_cards.xlsx#49",
+  "clash_royale_cards.xlsx#50",
+  "clash_royale_cards.xlsx#51",
+  "clash_royale_cards.xlsx#52",
+  "clash_royale_cards.xlsx#53",
+  "clash_royale_cards.xlsx#54",
+  "clash_royale_cards.xlsx#55",
+  "clash_royale_cards.xlsx#56",
+  "clash_royale_cards.xlsx#57",
+  "clash_royale_cards.xlsx#58",
+  "clash_royale_cards.xlsx#59",
+  "clash_royale_cards.xlsx#60",
+  "clash_royale_cards.xlsx#61",
+  "clash_royale_cards.xlsx#62",
+  "clash_royale_cards.xlsx#63",
+  "clash_royale_cards.xlsx#64",
+  "clash_royale_cards.xlsx#65",
+  "clash_royale_cards.xlsx#66",
+  "clash_royale_cards.xlsx#67",
+  "clash_royale_cards.xlsx#68",
+  "clash_royale_cards.xlsx#69",
+  "clash_royale_cards.xlsx#70",
+  "clash_royale_cards.xlsx#71",
+  "clash_royale_cards.xlsx#72",
+  "clash_royale_cards.xlsx#73",
+  "clash_royale_cards.xlsx#74",
+  "clash_royale_cards.xlsx#75",
+  "clash_royale_cards.xlsx#76",
+  "clash_royale_cards.xlsx#77",
+  "clash_royale_cards.xlsx#78",
+  "clash_royale_cards.xlsx#79",
+  "clash_royale_cards.xlsx#80",
+  "clash_royale_cards.xlsx#81",
+  "clash_royale_cards.xlsx#82",
+  "clash_royale_cards.xlsx#83",
+  "clash_royale_cards.xlsx#84",
+  "clash_royale_cards.xlsx#85",
+  "clash_royale_cards.xlsx#86",
+  "clash_royale_cards.xlsx#87",
+  "clash_royale_cards.xlsx#88",
+  "clash_royale_cards.xlsx#89",
+  "clash_royale_cards.xlsx#90",
+  "clash_royale_cards.xlsx#91",
+  "clash_royale_cards.xlsx#92",
+  "clash_royale_cards.xlsx#93",
+  "clash_royale_cards.xlsx#94",
+  "clash_royale_cards.xlsx#95",
+  "clash_royale_cards.xlsx#96",
+  "clash_royale_cards.xlsx#97",
+  "clash_royale_cards.xlsx#98",
+  "clash_royale_cards.xlsx#99",
+  "clash_royale_cards.xlsx#100",
+  "clash_royale_cards.xlsx#101",
+  "clash_royale_cards.xlsx#102",
+  "clash_royale_cards.xlsx#103",
+  "clash_royale_cards.xlsx#104",
+  "clash_royale_cards.xlsx#105",
+  "clash_royale_cards.xlsx#106",
+  "clash_royale_cards.xlsx#107",
+  "clash_royale_cards.xlsx#108",
+  "clash_royale_cards.xlsx#109",
+  "clash_royale_cards.xlsx#110",
+  "clash_royale_cards.xlsx#111",
+  "clash_royale_cards.xlsx#112",
+  "clash_royale_cards.xlsx#113",
+  "clash_royale_cards.xlsx#114",
+  "clash_royale_cards.xlsx#115",
+  "clash_royale_cards.xlsx#116",
+  "clash_royale_cards.xlsx#117",
+  "clash_royale_cards.xlsx#118",
+  "clash_royale_cards.xlsx#119",
+  "clash_wiki_dataset.csv#0",
+  "clash_wiki_dataset.csv#1",
+  "clash_wiki_dataset.csv#2",
+  "clash_wiki_dataset.csv#3",
+  "clash_wiki_dataset.csv#4",
+  "clash_wiki_dataset.csv#5",
+  "clash_wiki_dataset.csv#6",
+  "clash_wiki_dataset.csv#7",
+  "clash_wiki_dataset.csv#8",
+  "clash_wiki_dataset.csv#9",
+  "clash_wiki_dataset.csv#10",
+  "clash_wiki_dataset.csv#11",
+  "clash_wiki_dataset.csv#12",
+  "clash_wiki_dataset.csv#13",
+  "clash_wiki_dataset.csv#14",
+  "clash_wiki_dataset.csv#15",
+  "clash_wiki_dataset.csv#16",
+  "clash_wiki_dataset.csv#17",
+  "clash_wiki_dataset.csv#18",
+  "clash_wiki_dataset.csv#19",
+  "clash_wiki_dataset.csv#20",
+  "clash_wiki_dataset.csv#21",
+  "clash_wiki_dataset.csv#22",
+  "clash_wiki_dataset.csv#23",
+  "clash_wiki_dataset.csv#24",
+  "clash_wiki_dataset.csv#25",
+  "clash_wiki_dataset.csv#26",
+  "clash_wiki_dataset.csv#27",
+  "clash_wiki_dataset.csv#28",
+  "clash_wiki_dataset.csv#29",
+  "clash_wiki_dataset.csv#30",
+  "clash_wiki_dataset.csv#31",
+  "clash_wiki_dataset.csv#32",
+  "clash_wiki_dataset.csv#33",
+  "clash_wiki_dataset.csv#34",
+  "clash_wiki_dataset.csv#35",
+  "clash_wiki_dataset.csv#36",
+  "clash_wiki_dataset.csv#37",
+  "clash_wiki_dataset.csv#38",
+  "clash_wiki_dataset.csv#39",
+  "clash_wiki_dataset.csv#40",
+  "clash_wiki_dataset.csv#41",
+  "clash_wiki_dataset.csv#42",
+  "clash_wiki_dataset.csv#43",
+  "clash_wiki_dataset.csv#44",
+  "clash_wiki_dataset.csv#45",
+  "clash_wiki_dataset.csv#46",
+  "clash_wiki_dataset.csv#47",
+  "clash_wiki_dataset.csv#48",
+  "clash_wiki_dataset.csv#49",
+  "clash_wiki_dataset.csv#50",
+  "clash_wiki_dataset.csv#51",
+  "clash_wiki_dataset.csv#52",
+  "clash_wiki_dataset.csv#53",
+  "clash_wiki_dataset.csv#54",
+  "clash_wiki_dataset.csv#55",
+  "clash_wiki_dataset.csv#56",
+  "clash_wiki_dataset.csv#57",
+  "clash_wiki_dataset.csv#58",
+  "clash_wiki_dataset.csv#59",
+  "clash_wiki_dataset.csv#60",
+  "clash_wiki_dataset.csv#61",
+  "clash_wiki_dataset.csv#62",
+  "clash_wiki_dataset.csv#63",
+  "clash_wiki_dataset.csv#64",
+  "clash_wiki_dataset.csv#65",
+  "clash_wiki_dataset.csv#66",
+  "clash_wiki_dataset.csv#67",
+  "clash_wiki_dataset.csv#68",
+  "clash_wiki_dataset.csv#69",
+  "decktypes.txt#0",
+  "decktypes.txt#1",
+  "decktypes.txt#2",
+  "decktypes.txt#3",
+  "decktypes.txt#4",
+  "decktypes.txt#5",
+  "decktypes.txt#6",
+  "decktypes.txt#7",
+  "decktypes.txt#8",
+  "GameModes.txt#0",
+  "GameModes.txt#1",
+  "GameModes.txt#2",
+  "GameModes.txt#3",
+  "GameModes.txt#4",
+  "GameModes.txt#5",
+  "GameModes.txt#6",
+  "GameModes.txt#7",
+  "GameModes.txt#8",
+  "GameModes.txt#9",
+  "GameModes.txt#10",
+  "GameModes.txt#11",
+  "GameModes.txt#12",
+  "GameModes.txt#13",
+  "GameModes.txt#14",
+  "GameModes.txt#15",
+  "GameModes.txt#16",
+  "GameModes.txt#17",
+  "GameModes.txt#18",
+  "GameModes.txt#19",
+  "GameModes.txt#20",
+  "GameModes.txt#21",
+  "GameModes.txt#22",
+  "GameModes.txt#23",
+  "GameModes.txt#24",
+  "GameModes.txt#25",
+  "GameModes.txt#26",
+  "GameModes.txt#27",
+  "how_to_play.md#0",
+  "how_to_play.md#1",
+  "how_to_play.md#2",
+  "how_to_play.md#3",
+  "how_to_play.md#4",
+  "how_to_play.md#5",
+  "strategies.txt#0",
+  "strategies.txt#1",
+  "strategies.txt#2",
+  "strategies.txt#3",
+  "strategies.txt#4",
+  "strategies.txt#5",
+  "strategies.txt#6",
+  "strategies.txt#7",
+  "strategies.txt#8",
+  "strategies.txt#9",
+  "strategies.txt#10",
+  "strategies.txt#11",
+  "strategies.txt#12",
+  "strategies.txt#13",
+  "strategies.txt#14",
+  "strategies.txt#15",
+  "strategies.txt#16",
+  "strategies.txt#17",
+  "TowerTroops.txt#0",
+  "TowerTroops.txt#1",
+  "TowerTroops.txt#2",
+  "TowerTroops.txt#3",
+  "TowerTroops.txt#4",
+  "TowerTroops.txt#5",
+  "TowerTroops.txt#6",
+  "TowerTroops.txt#7"
+ ],
+ "dropped_unknown_chunk": 6
+}

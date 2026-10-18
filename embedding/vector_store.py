@@ -31,6 +31,7 @@ line, `search()`'s scores would not be the metric taught in the lecture, silentl
 """
 
 import pathlib
+import uuid
 from typing import Optional
 
 import chromadb
@@ -38,11 +39,12 @@ import chromadb
 from embedding_client import EmbeddingClient
 
 
+
 class VectorStore:
     def __init__(
         self,
         embedder: Optional[EmbeddingClient] = None,
-        name: str = "chunks",
+        name: str = "cr_chunks",
         *,
         path: Optional[str] = None,
         reset: bool = False,
@@ -92,6 +94,26 @@ class VectorStore:
             for i, d, m in zip(got["ids"], got["documents"], metas)
         ]
 
+    def export(self, limit: Optional[int] = None, offset: Optional[int] = None) -> list[dict]:
+        """Stored chunks WITH their vectors, for moving into another store.
+
+        Returns [{"id", "chunk", "metadata", "embedding"}]. Added for the Week 4
+        practical, which copies chunks into Neo4j: the vectors are already paid
+        for, so copying them costs nothing against the embedding quota, while
+        re-embedding the same chunks would cost the full ingest again.
+
+        Page through a large collection with `limit` and `offset`: 3,000 chunks
+        of 3072 numbers each is roughly 300 MB as Python floats, all at once.
+        """
+        got = self._collection.get(
+            limit=limit, offset=offset, include=["documents", "metadatas", "embeddings"]
+        )
+        metas = got.get("metadatas") or [None] * len(got["ids"])
+        return [
+            {"id": i, "chunk": d, "metadata": m or {}, "embedding": [float(x) for x in e]}
+            for i, d, m, e in zip(got["ids"], got["documents"], metas, got["embeddings"])
+        ]
+
     def collections(self) -> list[str]:
         """Every collection name stored at this path.
 
@@ -121,8 +143,8 @@ class VectorStore:
     def search(self, query: str, *, n_results: int = 5) -> list[dict]:
         """Embed the question and search the index. Query-time work.
 
-        Returns a list of {"chunk": str, "distance": float, "metadata": dict}
-        ordered nearest first, where distance is 1 − cosine similarity (0 =
+        Returns a list of {"chunk": str, "distance": float, "metadata": dict,
+        "id": str} ordered nearest first, where distance is 1 − cosine similarity (0 =
         identical, larger = less similar -- see week-03-lecture-plan.md §3).
 
         `metadata` carries whatever `ingest.py` stored with the chunk -- its
@@ -131,10 +153,15 @@ class VectorStore:
         indexed before provenance existed; re-ingest with `--reset` to populate it.
         """
         query_vector = self.embedder.embed(query, task_type="RETRIEVAL_QUERY")
-        print(
-            f"[embedding] task=RETRIEVAL_QUERY dimensions={len(query_vector)} "
-            f"preview={[round(value, 6) for value in query_vector[:5]]}"
-        )
+        return self.search_by_vector(query_vector, n_results=n_results)
+
+    def search_by_vector(self, query_vector: list[float], *, n_results: int = 5) -> list[dict]:
+        """`search()` for a question you have already embedded. Same return shape.
+
+        Added for the Week 4 practical, which sends ONE query vector to both Chroma
+        and Neo4j, so that the only difference between the two result lists is the
+        store -- not a second embedding call.
+        """
         result = self._collection.query(
             query_embeddings=[query_vector],
             n_results=n_results,
@@ -142,9 +169,9 @@ class VectorStore:
         )
         metas = result.get("metadatas") or [[None] * len(result["documents"][0])]
         return [
-            {"chunk": doc, "distance": dist, "metadata": meta or {}}
-            for doc, dist, meta in zip(
-                result["documents"][0], result["distances"][0], metas[0]
+            {"chunk": doc, "distance": dist, "metadata": meta or {}, "id": i}
+            for doc, dist, meta, i in zip(
+                result["documents"][0], result["distances"][0], metas[0], result["ids"][0]
             )
         ]
 

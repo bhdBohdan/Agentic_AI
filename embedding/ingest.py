@@ -133,9 +133,10 @@ def main() -> None:
     store = VectorStore(name=args.name, reset=args.reset)
     already = store.count()
     if already and not args.reset:
-        print(f"\nCollection {args.name!r} already holds {already} chunks.")
-        print("Pass --reset to rebuild it, or --name to ingest alongside it.")
-        return
+        print(
+            f"\nCollection {args.name!r} already holds {already} chunks; "
+            "adding the new chunks alongside them."
+        )
 
     minutes = len(chunks) / 90
     print(f"\n{len(documents)} documents -> {len(chunks)} chunks")

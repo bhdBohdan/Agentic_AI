@@ -23,7 +23,8 @@ python .\embedding\ingest.py .\corpus\steam --name=steam_chunks  --reset
 ```
 
 The collection is stored in `embedding/chroma/`. Re-run with `--reset` when
-the corpus or chunk settings change. The API reads the `chunks` collection by
+the corpus or chunk settings change. Without `--reset`, newly ingested chunks
+are added to the existing collection. The API reads the `chunks` collection by
 default; set `CHROMA_COLLECTION` if you ingest under another name.
 
 ## API shape
@@ -38,3 +39,17 @@ default; set `CHROMA_COLLECTION` if you ingest under another name.
 
 The endpoint retrieves the nearest corpus chunks from Chroma, attaches them as
 context to `LLMClient`, and returns the generated answer plus source citations.
+
+### KNOWLEDEGEEEEEE GRAFF
+
+```bash
+cd D:\Work\Desktop\Ai_System_Project\project-ai\neo4j\createKG
+
+python extraction.py --all --out extractions\clash_royale.json --provider gemini
+
+cd ..\extractKG
+
+python build_graph.py
+
+python testRoutes.py --fresh
+```

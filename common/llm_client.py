@@ -83,22 +83,26 @@ class ChatResult:
 
 
 class LLMClient:
-    def __init__(self, provider: Optional[str] = None):
+    def __init__(self, provider: Optional[str] = None, model: Optional[str] = None):
         self.provider = (provider or os.environ.get("LLM_PROVIDER", "gemini")).lower()
         self.calls = 0
 
         if self.provider == "gemini":
-            self._init_gemini()
+            self._init_gemini(model=model)
         elif self.provider == "lightning":
             self._init_lightning()
         else:
             raise ValueError(f"Unknown LLM_PROVIDER {self.provider!r}. Use 'gemini' or 'lightning'.")
 
     # ------------------------------------------------------------ gemini
-    def _init_gemini(self) -> None:
+    def _init_gemini(self, model: Optional[str] = None) -> None:
         from google import genai
 
-        self.model = os.environ.get("GEMINI_MODEL", "gemini-3.1-flash-lite")
+        if model:
+            self.model = model
+        else:
+            self.model = os.environ.get("GEMINI_MODEL", "gemini-3.1-flash-lite")
+        
         self._genai = genai
         self._client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
 

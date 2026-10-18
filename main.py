@@ -5,7 +5,10 @@ import sys
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
-from pydantic import BaseModel
+from common.config.rag_conf import build_context, get_rag_components
+from common.llm_client import LLMClient
+from common.types.Chat import ChatResponse, ChatRequest
+from embedding.vector_store import VectorStore
 
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -13,47 +16,17 @@ STATIC_DIR = BASE_DIR / "static"
 sys.path.insert(0, str(BASE_DIR / "common"))
 sys.path.insert(0, str(BASE_DIR / "embedding"))
 
-from llm_client import LLMClient
-from vector_store import VectorStore
+
+
+
 
 app = FastAPI(title="Lumen Chat", version="0.1.0")
 app.mount("/static", StaticFiles(directory=STATIC_DIR), name="static")
 
 
-class ChatRequest(BaseModel):
-    message: str
 
 
-class ChatResponse(BaseModel):
-    reply: str
-    sources: list[str]
 
-
-_store: VectorStore | None = None
-_llm: LLMClient | None = None
-
-
-def get_rag_components() -> tuple[VectorStore, LLMClient]:
-    global _store, _llm
-    if _store is None:
-        _store = VectorStore(name=os.environ.get("CHROMA_COLLECTION", "cr"))
-    if _llm is None:
-        _llm = LLMClient()
-    return _store, _llm
-
-
-def build_context(results: list[dict]) -> tuple[str, list[str]]:
-    context_parts = []
-    sources = []
-    for result in results:
-        metadata = result["metadata"]
-        source = metadata.get("source", "unknown source")
-        chunk_index = metadata.get("chunk_index", "?")
-        citation = f"{source}#{chunk_index}"
-        context_parts.append(f"[{citation}]\n{result['chunk']}")
-        if citation not in sources:
-            sources.append(citation)
-    return "\n\n".join(context_parts), sources
 
 
 @app.get("/", response_class=FileResponse)
@@ -75,7 +48,7 @@ async def chat(request: ChatRequest) -> ChatResponse:
                 status_code=503,
                 detail="The Chroma collection is empty. Run the ingestion command first.",
             )
-        results = store.search(message, n_results=int(os.environ.get("RETRIEVAL_RESULTS", "5")))
+        results = store.search(message, n_results=int(os.environ.get("RETRIEVAL_RESULTS", "3")))
 
         print(f"[chroma] closest_results={len(results)}")
         for rank, result in enumerate(results, start=1):
@@ -111,8 +84,10 @@ async def chat(request: ChatRequest) -> ChatResponse:
         print(f"[llm] response={result.text!r}")
         return ChatResponse(reply=result.text, sources=sources)
     except HTTPException:
+        print("[error] HTTPException raised, returning to client")
         raise
     except Exception as exc:
+        print(f"[error] Exception raised: {exc}")
         raise HTTPException(status_code=502, detail=f"Assistant request failed: {exc}") from exc
 
 

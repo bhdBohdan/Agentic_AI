@@ -1,0 +1,40 @@
+{
+  "about": "Clash Royale competency questions derived from KG.MD and corpus/cr.",
+  "questions": [
+    {
+      "id": "Q1",
+      "question": "Which cards are included in each deck archetype?",
+      "expected": "The graph should return deck types, cards, elixir costs, and strategic roles.",
+      "stated_in": ["decktypes.txt"],
+      "kind": "relationship listing"
+    },
+    {
+      "id": "Q2",
+      "question": "Which cards have the highest Crown Tower damage?",
+      "expected": "The graph should return cards ordered by crown_tower_damage.",
+      "stated_in": ["clash_wiki_dataset.csv"],
+      "kind": "property comparison"
+    },
+    {
+      "id": "Q3",
+      "question": "Which deck types use Miner, and what role does it play?",
+      "expected": "The graph should return the deck types containing Miner and the role recorded on each relationship.",
+      "stated_in": ["decktypes.txt", "strategies.txt"],
+      "kind": "named relationship"
+    },
+    {
+      "id": "Q4",
+      "question": "Which gameplay mechanics are described in each source document?",
+      "expected": "The graph should return source documents, mechanics, sections, and evidence.",
+      "stated_in": ["how_to_play.md", "GameModes.txt", "TowerTroops.txt"],
+      "kind": "provenance"
+    },
+    {
+      "id": "Q5",
+      "question": "Which cards occur in more than one deck archetype?",
+      "expected": "The graph should return cards and the deck archetypes in which they occur.",
+      "stated_in": ["decktypes.txt"],
+      "kind": "aggregation"
+    }
+  ]
+}
