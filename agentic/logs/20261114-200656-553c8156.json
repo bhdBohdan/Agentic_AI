@@ -1,0 +1,11 @@
+{
+  "question": "Compare Beatdown and Siege decks, list representative cards, and explain which mechanics make them different.",
+  "status": "stopped_by_limit",
+  "model_calls": 1,
+  "tool_calls": {
+    "search_clash_royale": 1
+  },
+  "steps": [],
+  "answer": "",
+  "error": "ModelCallLimitExceededError: Model call limits exceeded: run limit (1/1)"
+}

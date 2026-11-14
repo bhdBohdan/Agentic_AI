@@ -10,10 +10,10 @@
     },
     {
       "id": "Q2",
-      "question": "Which cards have the highest Crown Tower damage?",
-      "expected": "The graph should return cards ordered by crown_tower_damage.",
+      "question": "How many cards are in the game?",
+      "expected": "The graph should return the number of cards.",
       "stated_in": ["clash_wiki_dataset.csv"],
-      "kind": "property comparison"
+      "kind": "accountability"
     },
     {
       "id": "Q3",
