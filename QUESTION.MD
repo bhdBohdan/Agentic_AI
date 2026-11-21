@@ -19,6 +19,8 @@
 
 ### Negative RAG Questions
 
+#2P2V9LUV #29Q8JVLC9
+
 - **8.** Do Touchdown matches use Crown Towers as the way to score Crowns?
   - _No. Touchdown has end zones instead of Crown Towers, and troops reaching an opponent's end zone score Crowns._
 - **9.** Can the Miner and Goblin Drill be deployed anywhere in Touchdown?

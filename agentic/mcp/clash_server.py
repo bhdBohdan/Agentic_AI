@@ -42,6 +42,8 @@ def battle_damage_calculator(cards, princess_tower, king_tower, dt=0.1):
     king_tower: кортеж (dps, hp) для вежі короля
     dt: крок симуляції в секундах (0.1 с забезпечує точний розрахунок смерті юнітів)
     """
+
+    print(f"Simulating battle with {len(cards)} card types, princess tower {princess_tower}, king tower {king_tower}, dt={dt}")
     # Розгортаємо список карт в окремих юнітів зі збереженням порядку (черги танкування)
     units = []
     for dps, hp, count in cards:

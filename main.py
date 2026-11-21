@@ -112,8 +112,9 @@ class UserMemory:
     def remember(self, message: str) -> None:
         fact = " ".join(message.strip().split())
         lowered = fact.casefold()
-        if not fact or not lowered.startswith(self._CUES):
+        if not fact or not any(cue in lowered for cue in self._CUES):
             return
+            
         if not any(existing.casefold() == lowered for existing in self.facts):
             self.facts.append(fact)
             self.facts = self.facts[-self.limit:]
